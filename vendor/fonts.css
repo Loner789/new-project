@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Gotham';
+    src: local('Gotham'),
+        url(../vendor/gotham/Gotham-Light.woff) format('woff'), url(../vendor/gotham/Gotham-Light.woff2) format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: local('Gotham'),
+        url(../vendor/gotham/Gotham-Bold.woff) format('woff'), url(../vendor/gotham/Gotham-Bold.woff2) format('woff2');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter'),
+        url(../vendor/inter/Inter-Regular.woff) format('woff'), url(../vendor/inter/Inter-Regular.woff2) format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter'),
+        url(../vendor/inter/Inter-SemiBold.woff) format('woff'), url(../vendor/inter/Inter-SemiBold.woff2) format('woff2');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Gotham XNarrow';
+    src: local('Gotham XNarrow'),
+        url(../vendor/gothamxnarrow/GothamXNarrow-Medium.woff) format('woff'), url(../vendor/gothamxnarrow/GothamXNarrow-Medium.woff2) format('woff2');
+    font-weight: 500;
+}
