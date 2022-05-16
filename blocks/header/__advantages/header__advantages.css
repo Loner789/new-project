@@ -1,0 +1,10 @@
+.header__advantages {
+    max-width: 1440px;
+    min-height: 180px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 110px 0 120px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4, 1fr);
+}

@@ -1,0 +1,11 @@
+.header__title {
+    margin: 0 0 24px;
+    padding: 0;
+    font-family: 'Gotham XNarrow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 74px;
+    line-height: 0.95;
+    letter-spacing: 0.02em;
+    color: #EEEFF1;
+}

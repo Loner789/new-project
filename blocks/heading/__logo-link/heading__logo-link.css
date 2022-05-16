@@ -1,0 +1,9 @@
+.heading__logo-link {
+    text-decoration: none;
+    display: grid;
+    grid-template-areas:
+        "logo title"
+        "logo subtitle";
+    row-gap: 8px;
+    column-gap: 15px;
+}

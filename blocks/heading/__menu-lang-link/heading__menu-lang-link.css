@@ -1,0 +1,7 @@
+.heading__menu-lang-link {
+    padding: 0 24px;
+}
+
+.heading__menu-lang-link::after {
+    border-right: 16px solid #ffffff;
+}

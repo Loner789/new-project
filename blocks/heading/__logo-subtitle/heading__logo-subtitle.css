@@ -1,0 +1,13 @@
+.heading__logo-subtitle {
+    grid-area: subtitle;
+    max-width: 290px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #989AA9;
+    align-self: start;
+}

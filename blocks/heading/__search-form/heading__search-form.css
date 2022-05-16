@@ -1,0 +1,23 @@
+.heading__search-form {
+    position: relative;
+    transition: all 1s;
+    width: 30px;
+    height: 30px;
+    background: #07051a;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.heading__search-form:hover {
+    width: 200px;
+    cursor: pointer;
+}
+
+.heading__search-form:hover .heading__search-box {
+    display: block;
+}
+
+.heading__search-form:hover .heading__search-icon {
+    background: white;
+    color: #07051a;
+}
