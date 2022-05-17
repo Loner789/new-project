@@ -10,6 +10,12 @@
     color: #EEEFF1;
 }
 
+@media screen and (max-width: 1439px) {
+    .header__advantage-subtitle {
+        font-size: 22px;
+    }
+}
+
 @media screen and (max-width: 1279px) {
     .header__advantage-subtitle {
         font-size: 18px;

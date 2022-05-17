@@ -5,4 +5,5 @@
     font-family: 'Inter', 'Gotham', 'Gotham XNarrow', sans-serif;
     background-image: url(../../images/earth.png);
     background-size: cover;
+    background-position: center;
 }
