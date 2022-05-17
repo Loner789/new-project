@@ -2,3 +2,13 @@
     text-decoration: none;
     color: #DDDDE2;
 }
+
+.heading__menu-link::after {
+    border-right: 16px solid #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+    .heading__menu-link {
+        display: none;
+    }
+}

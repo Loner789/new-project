@@ -11,3 +11,10 @@
     color: #989AA9;
     align-self: start;
 }
+
+@media screen and (max-width: 767px) {
+    .heading__logo-subtitle {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}

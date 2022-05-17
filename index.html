@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Студия разработки ПО</title>
-    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="pages/index.css">
 </head>
 
 <body class="root">
@@ -26,8 +26,8 @@
                     <li class="heading__menu-item"><a href="#" class="heading__menu-link">Портфолио</a></li>
                     <li class="heading__menu-item"><a href="#" class="heading__menu-link">Контакты</a></li>
                 </ul>
-                <a href="#" class="heading__menu-link"><img src="/images/icon_flag.svg" alt="значок_флага"
-                        class="heading__menu-lang-link"></a>
+                <button class="heading__burger-menu" aria-label="кнопка_меню"></button>
+                <a href="#" class="heading__menu-lang-link" aria-label="ссылка_на_перевод_страницы"></a>
                 <form action="" class="heading__search-form">
                     <input type="search" class="heading__search-box">
                     <i class="heading__search-icon"></i>
@@ -35,9 +35,8 @@
             </nav>
         </div>
         <div class="header__content">
-            <h1 class="header__title">Студия разработки программного обеспечения <span class="header__title-span">с
-                    продуктовым мышлением</span></h1>
-            <p class="header__subtitle">Мы создаем кроссплатформенные мобильные приложения и веб-платформы и находим для
+            <h1 class="header__title">Студия разработки программного обеспечения <span class="header__title-span">с продуктовым мышлением</span></h1>
+            <p class="header__subtitle">Мы создаем кроссплатформенные мобильные приложения и веб&#8209;платформы и находим для
                 них
                 лучшие решения.</p>
             <button type="submit" class="button-project-order">Заказать проект</button>
@@ -71,6 +70,7 @@
         <section class="faq"></section>
     </main>
     <footer class="footer"></footer>
+    <script src="scripts/index.js"></script>
 </body>
 
 </html>

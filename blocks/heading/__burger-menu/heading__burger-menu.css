@@ -1,0 +1,17 @@
+.heading__burger-menu {
+    display: none;
+    justify-self: flex-end;
+    width: 24px;
+    height: 24px;
+    background-image: url(../../../images/icon_burger-menu.svg);
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 1279px) {
+    .heading__burger-menu {
+        display: block;
+    }
+}

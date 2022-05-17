@@ -9,6 +9,7 @@
 @import url(../blocks/heading/__logo-subtitle/heading__logo-subtitle.css);
 @import url(../blocks/heading/__menu/heading__menu.css);
 @import url(../blocks/heading/__menu-item/heading__menu-item.css);
+@import url(../blocks/heading/__burger-menu/heading__burger-menu.css);
 @import url(../blocks/heading/__menu-links/heading__menu-links.css);
 @import url(../blocks/heading/__menu-link/heading__menu-link.css);
 @import url(../blocks/heading/__menu-lang-link/heading__menu-lang-link.css);

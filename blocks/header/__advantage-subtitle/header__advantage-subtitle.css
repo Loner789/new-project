@@ -9,3 +9,23 @@
     text-align: center;
     color: #EEEFF1;
 }
+
+@media screen and (max-width: 1279px) {
+    .header__advantage-subtitle {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header__advantage-subtitle {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__advantage-subtitle {
+        font-size: 20px;
+        line-height: 24px;
+        color: #BABBC6;
+    }
+}

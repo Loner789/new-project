@@ -13,3 +13,29 @@
 .heading__menu-item:last-child::after {
     display: none;
 }
+
+@media screen and (max-width: 1439px) {
+    .heading__menu-item {
+        width: 120px;
+        padding-right: 15px;
+    }
+
+    .heading__menu-item:nth-child(-n+3) {
+        padding-bottom: 10px;
+    }
+
+    .heading__menu-item::after {
+        display: none;
+    }
+
+    .heading__menu-item:nth-child(3n) {
+        padding-right: 0;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .heading__menu-item {
+        display: none;
+    }
+}

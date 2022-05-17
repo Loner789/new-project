@@ -7,3 +7,10 @@
     row-gap: 8px;
     column-gap: 15px;
 }
+
+@media screen and (max-width: 767px) {
+    .heading__logo-link {
+        column-gap: 11px;
+        row-gap: 5px;
+    }
+}

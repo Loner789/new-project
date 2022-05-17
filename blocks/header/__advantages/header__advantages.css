@@ -7,4 +7,18 @@
     display: grid;
     gap: 40px;
     grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+}
+
+@media screen and (max-width: 767px) {
+    .header__advantages {
+        padding-top: 55px;
+        margin-top: 80px;
+        box-sizing: border-box;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 7px;
+        row-gap: 66px;
+        align-items: start;
+        background-color: #03115F;
+    }
 }

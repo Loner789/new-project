@@ -9,3 +9,24 @@
     letter-spacing: 0.02em;
     color: #EEEFF1;
 }
+
+@media screen and (max-width: 1279px) {
+    .header__title {
+        font-size: 62px;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .header__title {
+        max-width: 600px;
+        font-size: 52px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__title {
+        font-size: 36px;
+        line-height: 1;
+        margin-bottom: 16px;
+    }
+}

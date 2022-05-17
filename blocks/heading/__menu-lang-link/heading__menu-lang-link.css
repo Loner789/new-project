@@ -1,7 +1,19 @@
 .heading__menu-lang-link {
-    padding: 0 24px;
+    width: 28px;
+    height: 20px;
+    margin: 0 24px;
+    background-image: url(../../../images/icon_flag.svg);
+    background-size: cover;
+    text-decoration: none;
+    color: #DDDDE2;
 }
 
 .heading__menu-lang-link::after {
     border-right: 16px solid #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+    .heading__menu-lang-link {
+        display: none;
+    }
 }

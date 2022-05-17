@@ -1,7 +1,17 @@
 .heading__menu-links {
     margin: 0;
     padding: 0;
+    max-width: 695px;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: flex-end;
     list-style: none;
+}
+
+@media screen and (max-width: 1439px) {
+    .heading__menu-links {
+    max-width: 405px;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    }
 }

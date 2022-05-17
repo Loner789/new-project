@@ -21,3 +21,9 @@
     background: white;
     color: #07051a;
 }
+
+@media screen and (max-width: 767px) {
+    .heading__search-form {
+        display: none;
+    }
+}

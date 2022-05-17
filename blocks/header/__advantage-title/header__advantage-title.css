@@ -5,8 +5,27 @@
     font-style: normal;
     font-weight: 700;
     font-size: 68px;
-    line-height: 82px;
+    line-height: 1.2;
     text-align: center;
     text-transform: uppercase;
     color: #EEEFF1;
+}
+
+@media screen and (max-width: 1279px) {
+    .header__advantage-title {
+        font-size: 52px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header__advantage-title {
+        font-size: 46px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__advantage-title {
+        font-size: 56px;
+        line-height: 67px;
+    }
 }

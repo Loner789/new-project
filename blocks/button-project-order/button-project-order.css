@@ -10,4 +10,22 @@
     line-height: 19px;
     letter-spacing: 0.02em;
     color: #EEEFF1;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1023px) {
+    .button-project-order {
+        width: 150px;
+        font-size: 12px;
+        line-height: 1.2;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .button-project-order {
+        width: 310px;
+        padding: 16px 34px;
+        font-size: 14px;
+        line-height: 16px;
+    }
 }

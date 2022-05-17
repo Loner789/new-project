@@ -6,3 +6,26 @@
     flex-direction: column;
     align-items: flex-start;
 }
+
+@media screen and (max-width: 1279px) {
+    .header__content {
+        max-width: 600px;
+        margin-left: 170px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header__content {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__content {
+        padding-right: 16px;
+        padding-left: 16px;
+        max-width: 410px;
+        margin: 80px auto 0;
+        align-items: center;
+    }
+}
