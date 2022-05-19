@@ -1,0 +1,26 @@
+.info__description {
+    max-width: 451px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+
+@media  screen and (max-width: 1439px) {
+    .info__description {
+        align-self: center;
+    }
+}
+
+@media  screen and (max-width: 1279px) {
+    .info__description {
+        max-width: 947px;
+    }
+}
+
+@media  screen and (max-width: 767px) {
+    .info__description {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

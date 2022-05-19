@@ -1,0 +1,20 @@
+.info__vacations {
+    width: 206px;
+    height: 48px;
+    padding: 14px 20px;
+    border: 2px solid #1E74EC;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #1E74EC;
+    background-color: transparent;
+}
+
+@media  screen and (max-width: 1279px) {
+    .info__vacations {
+        display: none;
+    }
+}

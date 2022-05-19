@@ -1,0 +1,26 @@
+.info__caption {
+    padding-bottom: 24px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    color: #35417F;
+}
+
+@media screen and (max-width: 1279px) {
+    .info__caption {
+        order: 2;
+        padding-top: 24px;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .info__caption {
+        padding-left: 16px;
+        font-weight: 325;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}

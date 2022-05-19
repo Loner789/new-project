@@ -26,7 +26,7 @@
                     <li class="heading__menu-item"><a href="#" class="heading__menu-link">Портфолио</a></li>
                     <li class="heading__menu-item"><a href="#" class="heading__menu-link">Контакты</a></li>
                 </ul>
-                <button class="heading__burger-menu" aria-label="кнопка_меню"></button>
+                <button type="button" class="heading__burger-menu" aria-label="кнопка_меню"></button>
                 <a href="#" class="heading__menu-lang-link" aria-label="ссылка_на_перевод_страницы"></a>
                 <form action="" class="heading__search-form">
                     <input type="search" class="heading__search-box">
@@ -35,11 +35,13 @@
             </nav>
         </div>
         <div class="header__content">
-            <h1 class="header__title">Студия разработки программного обеспечения <span class="header__title-span">с продуктовым мышлением</span></h1>
-            <p class="header__subtitle">Мы создаем кроссплатформенные мобильные приложения и веб&#8209;платформы и находим для
+            <h1 class="header__title">Студия разработки программного обеспечения <span class="header__title-span">с
+                    продуктовым мышлением</span></h1>
+            <p class="header__subtitle">Мы создаем кроссплатформенные мобильные приложения и веб&#8209;платформы и
+                находим для
                 них
                 лучшие решения.</p>
-            <button type="submit" class="button-project-order">Заказать проект</button>
+            <button type="button" class="button-project-order">Заказать проект</button>
         </div>
         <ul class="header__advantages">
             <li>
@@ -61,7 +63,29 @@
         </ul>
     </header>
     <main class="content">
-        <section class="info"></section>
+        <section class="info info_place_main">
+            <figure class="info__picture">
+                <figcaption class="info__caption">О нас</figcaption>
+                <img src="images/why_ust.png" alt="" class="info__image">
+            </figure>
+            <div class="info__description">
+                <h2 class="info__title">Почему UST?</h2>
+                <p class="info__subtitle">К услугам наших клиентов разработка программного обеспечения на заказ,
+                    проектирование пользовательских интерфейсов, создание сайтов (в том числе на основе индивидуальной
+                    CMS) и их поддержка.
+                    Мы также предлагаем услугу IT-консалтинга — налаживание работы любых информационно-аналитических
+                    систем и онлайн-решений компании для большей эффективности бизнес-процессов.
+                    Сегодня компания «Union Smart Technology» имеет представительства с умелыми project‑менеджерами в РФ
+                    и Словакии.
+                    Такая география позволяет привлекать наиболее ответственных и квалифицированных программистов и живо
+                    реагировать на потребности заказчиков со всего света, сохраняя комфортный уровень цен.
+                </p>
+                <div class="info__buttons">
+                    <button type="button" class="info__vacations">Вакансии</button>
+                    <button type="button" class="info__read-more">Читать далее</button>
+                </div>
+            </div>
+        </section>
         <section class="suggestions"></section>
         <section class="portfolio"></section>
         <section class="benefits"></section>

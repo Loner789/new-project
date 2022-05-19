@@ -1,0 +1,17 @@
+.info_place_main {
+    margin: 180px auto;
+}
+
+@media  screen and (max-width: 1439px) {
+    .info_place_main {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
+
+@media  screen and (max-width: 1279px) {
+    .info_place_main {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}

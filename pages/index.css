@@ -1,6 +1,9 @@
+/* VENDOR */
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+/* PAGE */
 @import url(../blocks/root/root.css);
+/* HEADER */
 @import url(../blocks/header/header.css);
 @import url(../blocks/heading/heading.css);
 @import url(../blocks/heading/__logo/heading__logo.css);
@@ -24,3 +27,15 @@
 @import url(../blocks/header/__advantage-title/header__advantage-title.css);
 @import url(../blocks/header/__advantage-subtitle/header__advantage-subtitle.css);
 @import url(../blocks/button-project-order/button-project-order.css);
+/* INFO */
+@import url(../blocks/info/info.css);
+@import url(../blocks/info/_place/info_place_main.css);
+@import url(../blocks/info/__picture/info__picture.css);
+@import url(../blocks/info/__caption/info__caption.css);
+@import url(../blocks/info/__image/info__image.css);
+@import url(../blocks/info/__description/info__description.css);
+@import url(../blocks/info/__title/info__title.css);
+@import url(../blocks/info/__subtitle/info__subtitle.css);
+@import url(../blocks/info/__buttons/info__buttons.css);
+@import url(../blocks/info/__vacations/info__vacations.css);
+@import url(../blocks/info/__read-more/info__read-more.css);
