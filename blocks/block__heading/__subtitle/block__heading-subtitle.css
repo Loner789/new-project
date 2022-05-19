@@ -1,4 +1,4 @@
-.suggestions__subtitle {
+.block__heading-subtitle {
     margin: 0;
     padding-bottom: 24px;
     font-family: 'Gotham';
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .suggestions__subtitle {
+    .block__heading-subtitle {
         font-size: 30px;
         line-height: 32px;
     }

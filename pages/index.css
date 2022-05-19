@@ -42,9 +42,10 @@
 /* SUGGESTIONS */
 @import url(../blocks/suggestions/suggestions.css);
 @import url(../blocks/suggestions/_place/suggestions_place_main.css);
-@import url(../blocks/suggestions/__title/suggestions__title.css);
-@import url(../blocks/suggestions/__subtitle/suggestions__subtitle.css);
-@import url(../blocks/suggestions/__offer/suggestions__offer.css);
+@import url(../blocks/block__heading/block__heading.css);
+@import url(../blocks/block__heading/__title/block__heading-title.css);
+@import url(../blocks/block__heading/__subtitle/block__heading-subtitle.css);
+@import url(../blocks/block__heading/__description/block__heading-description.css);
 @import url(../blocks/suggestions/__link/suggestions__link.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);

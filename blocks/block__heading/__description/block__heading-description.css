@@ -1,4 +1,4 @@
-.suggestions__offer {
+.block__heading-description {
     max-width: 906px;
     margin: 0;
     padding-bottom: 64px;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .suggestions__offer {
+    .block__heading-description {
         font-size: 14px;
         line-height: 20px;
     }
