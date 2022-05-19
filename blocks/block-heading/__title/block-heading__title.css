@@ -1,4 +1,4 @@
-.block__heading-title {
+.block-heading__title {
     margin: 0;
     padding-bottom: 8px;
     font-family: 'Gotham';
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .block__heading-title {
+    .block-heading__title {
         font-size: 20px;
         line-height: 24px;
     }

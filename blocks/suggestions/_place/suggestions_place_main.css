@@ -1,9 +1,0 @@
-.suggestions_place_main {
-    margin: 180px auto;
-}
-
-@media screen and (max-width: 767px) {
-    .suggestions_place_main{
-        margin: 80px auto;
-    }
-}

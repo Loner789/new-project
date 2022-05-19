@@ -1,0 +1,6 @@
+.portfolio__buttons {
+    max-width: 436px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}

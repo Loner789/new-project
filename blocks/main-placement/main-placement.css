@@ -1,0 +1,15 @@
+.main-placement {
+    margin: 180px auto 0 auto;
+}
+
+@media screen and (max-width: 1439px) {
+    .main-placement {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .main-placement {
+        margin-top: 0;
+    }
+}

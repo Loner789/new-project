@@ -1,4 +1,4 @@
-.block__heading-description {
+.block-heading__description {
     max-width: 906px;
     margin: 0;
     padding-bottom: 64px;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .block__heading-description {
+    .block-heading__description {
         font-size: 14px;
         line-height: 20px;
     }

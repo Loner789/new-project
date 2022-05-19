@@ -27,9 +27,10 @@
 @import url(../blocks/header/__advantage-title/header__advantage-title.css);
 @import url(../blocks/header/__advantage-subtitle/header__advantage-subtitle.css);
 @import url(../blocks/button-project-order/button-project-order.css);
+@import url(../blocks/button-project-order/_place/button-project-order_place_portfolio.css);
+@import url(../blocks/main-placement/main-placement.css);
 /* INFO */
 @import url(../blocks/info/info.css);
-@import url(../blocks/info/_place/info_place_main.css);
 @import url(../blocks/info/__picture/info__picture.css);
 @import url(../blocks/info/__caption/info__caption.css);
 @import url(../blocks/info/__image/info__image.css);
@@ -37,18 +38,35 @@
 @import url(../blocks/info/__title/info__title.css);
 @import url(../blocks/info/__subtitle/info__subtitle.css);
 @import url(../blocks/info/__buttons/info__buttons.css);
-@import url(../blocks/info/__vacations/info__vacations.css);
-@import url(../blocks/info/__read-more/info__read-more.css);
+@import url(../blocks/button-vacations/button-vacations.css);
+@import url(../blocks/button-read-more/button-read-more.css);
 /* SUGGESTIONS */
 @import url(../blocks/suggestions/suggestions.css);
-@import url(../blocks/suggestions/_place/suggestions_place_main.css);
-@import url(../blocks/block__heading/block__heading.css);
-@import url(../blocks/block__heading/__title/block__heading-title.css);
-@import url(../blocks/block__heading/__subtitle/block__heading-subtitle.css);
-@import url(../blocks/block__heading/__description/block__heading-description.css);
+@import url(../blocks/block-heading/block-heading.css);
+@import url(../blocks/block-heading/__title/block-heading__title.css);
+@import url(../blocks/block-heading/__subtitle/block-heading__subtitle.css);
+@import url(../blocks/block-heading/__description/block-heading__description.css);
+@import url(../blocks/block-heading/_place/block-heading_place_portfolio.css);
 @import url(../blocks/suggestions/__link/suggestions__link.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__image/cards__image.css);
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__subtitle/cards__subtitle.css);
+/* PORTFOLIO */
+@import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/portfolio/__cards/portfolio__cards.css);
+@import url(../blocks/portfolio/__card/portfolio__card.css);
+@import url(../blocks/portfolio/__card/_size/portfolio__card_size_small.css);
+@import url(../blocks/portfolio/__card/_size/portfolio__card_size_large.css);
+@import url(../blocks/portfolio/__card/_palce/portfilio__card_palce_actual.css);
+@import url(../blocks/portfolio/__card/_palce/portfilio__card_palce_atol.css);
+@import url(../blocks/portfolio/__card/_palce/portfilio__card_palce_mobile.css);
+@import url(../blocks/portfolio/__card/_palce/portfilio__card_palce_prorab.css);
+@import url(../blocks/portfolio/__card/_palce/portfilio__card_palce_voice.css);
+@import url(../blocks/portfolio/__card/_palce/portfilio__card_palce_vroom.css);
+@import url(../blocks/portfolio/__card-image/portfilio__card-image.css);
+@import url(../blocks/portfolio/__card-title/portfilio__card-title.css);
+@import url(../blocks/portfolio/__card-subtitle/portfilio__card-subtitle.css);
+@import url(../blocks/portfolio/__buttons/portfolio__buttons.css);
+@import url(../blocks/portfolio-button/portfolio-button.css);
