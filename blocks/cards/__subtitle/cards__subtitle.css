@@ -1,0 +1,17 @@
+.cards__subtitle {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham';
+    font-weight: 325;
+    font-size: 18px;
+    line-height: 22px;
+    color: #535670;
+}
+
+@media screen and (max-width: 767px) {
+    .cards__subtitle {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

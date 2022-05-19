@@ -1,0 +1,16 @@
+.suggestions__subtitle {
+    margin: 0;
+    padding-bottom: 24px;
+    font-family: 'Gotham';
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 68px;
+    color: #03115F;
+}
+
+@media screen and (max-width: 767px) {
+    .suggestions__subtitle {
+        font-size: 30px;
+        line-height: 32px;
+    }
+}

@@ -1,0 +1,13 @@
+.suggestions {
+    max-width: 1440px;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media  screen and (max-width: 1023px) {
+    .suggestions {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

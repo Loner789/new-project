@@ -1,0 +1,17 @@
+.suggestions__link {
+    margin: 0;
+    padding-top: 64px;
+    text-decoration: none;
+    font-family: 'Gotham';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A960AB;
+}
+
+@media screen and (max-width: 767px) {
+    .suggestions__link {
+        align-self: flex-end;
+        color: #1E74EC;
+    }
+}
