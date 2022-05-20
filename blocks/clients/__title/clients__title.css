@@ -1,0 +1,10 @@
+.clients__title {
+    margin: 0;
+    padding-bottom: 64px;
+    text-align: center;
+    font-family: 'Gotham';
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 68px;
+    color: #03115F;
+}

@@ -50,9 +50,12 @@
 @import url(../blocks/suggestions/__link/suggestions__link.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__item/_place/cards__item_place_benefits.css);
 @import url(../blocks/cards/__image/cards__image.css);
 @import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__title/_place/cards__title_place_benefits.css);
 @import url(../blocks/cards/__subtitle/cards__subtitle.css);
+@import url(../blocks/cards/_place/cards_place_benefits.css);
 /* PORTFOLIO */
 @import url(../blocks/portfolio/portfolio.css);
 @import url(../blocks/portfolio/__cards/portfolio__cards.css);
@@ -70,3 +73,10 @@
 @import url(../blocks/portfolio/__card-subtitle/portfolio__card-subtitle.css);
 @import url(../blocks/portfolio/__buttons/portfolio__buttons.css);
 @import url(../blocks/portfolio-button/portfolio-button.css);
+/* BENEFITS */
+@import url(../blocks/benefits/benefits.css);
+/* CLIENTS */
+@import url(../blocks/clients/clients.css);
+@import url(../blocks/clients/__title/clients__title.css);
+@import url(../blocks/clients/__container/clients__container.css);
+@import url(../blocks/clients/__item/clients__item.css);

@@ -1,0 +1,24 @@
+.clients__container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 40px;
+    align-items: center;
+    justify-items: center;
+}
+
+@media screen and (max-width: 1279px) {
+    .clients__container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .clients__container {
+        padding-left: 16px;
+        padding-right: 16px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

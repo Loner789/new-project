@@ -1,0 +1,16 @@
+.clients__item {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .clients__item:nth-child(-n + 3) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .clients__item:nth-child(-n + 6) {
+        display: none;
+    }
+}

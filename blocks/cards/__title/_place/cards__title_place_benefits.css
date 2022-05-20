@@ -1,0 +1,10 @@
+.cards__title_place_benefits {
+    font-size: 22px;
+}
+
+@media screen and (max-width: 767px) {
+    .cards__title_place_benefits {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
