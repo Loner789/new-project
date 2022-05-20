@@ -1,6 +1,7 @@
 .suggestions {
     max-width: 1440px;
     padding: 0 30px;
+    font-family: 'Inter', 'Gotham', 'Gotham XNarrow', sans-serif;
     display: flex;
     flex-direction: column;
 }
