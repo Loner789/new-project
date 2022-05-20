@@ -1,15 +1,15 @@
 .main-placement {
-    margin: 180px auto 0 auto;
+    margin: 0 auto 180px auto;
 }
 
 @media screen and (max-width: 1439px) {
     .main-placement {
-        margin-top: 100px;
+        margin-bottom: 100px;
     }
 }
 
 @media screen and (max-width: 1279px) {
     .main-placement {
-        margin-top: 0;
+        margin-bottom: 80px;
     }
 }

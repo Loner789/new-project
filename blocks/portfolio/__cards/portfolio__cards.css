@@ -1,8 +1,32 @@
 .portfolio__cards {
-    max-width: 100%;
+    max-width: max-content;
+    margin: 0 auto 64px;
     display: grid;
     gap: 40px;
     grid-template-areas:
-    "mobile voice vroom atol"
-    "prorab prorab actual actual";
+        "mobile voice vroom atol"
+        "prorab prorab actual actual";
+}
+
+@media screen and (max-width: 1599px) {
+    .portfolio__cards {
+        margin-bottom: 50px;
+        grid-template-areas:
+            "mobile voice"
+            "prorab prorab"
+            "vroom atol"
+            "actual actual";
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .portfolio__cards {
+        margin-bottom: 40px;
+        gap: 64px;
+        grid-template-areas:
+            "mobile"
+            "voice"
+            "atol"
+            "vroom";
+    }
 }

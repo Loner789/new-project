@@ -1,4 +1,12 @@
 .portfolio {
     max-width: 1440px;
+    padding: 0 30px;
     font-family: 'Inter', 'Gotham', 'Gotham XNarrow', sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+    .portfolio {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
 }

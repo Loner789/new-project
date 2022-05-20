@@ -1,4 +1,4 @@
-.portfilio__card-title {
+.portfolio__card-title {
     max-width: 100%;
     margin: 0;
     padding: 4px 0;
@@ -7,4 +7,11 @@
     font-size: 22px;
     line-height: 32px;
     color: #35417F;
+}
+
+
+@media screen and (max-width: 1599px) {
+    .portfolio__card-title {
+        text-align: center;
+    }
 }

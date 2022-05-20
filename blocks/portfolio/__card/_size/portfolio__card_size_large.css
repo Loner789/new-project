@@ -2,3 +2,9 @@
     width: 700px;
     height: 440px;
 }
+
+@media screen and (max-width: 767px) {
+    .portfolio__card_size_large {
+        display: none;
+    }
+}

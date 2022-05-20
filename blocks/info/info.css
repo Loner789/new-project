@@ -9,13 +9,12 @@
 @media  screen and (max-width: 1279px) {
     .info {
         flex-direction: column;
-        padding-top: 50px;
-        padding-bottom: 50px;
     }
 }
 
 @media  screen and (max-width: 767px) {
     .info {
-        padding: 0;
+        padding-right: 0;
+        padding-left: 0;
     }
 }

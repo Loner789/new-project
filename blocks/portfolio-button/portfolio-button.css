@@ -11,3 +11,14 @@
     color: #1E74EC;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1023px) {
+    .portfolio-button {
+        order: 2;
+        margin-top: 8px;
+        border: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
