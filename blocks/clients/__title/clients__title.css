@@ -8,3 +8,10 @@
     line-height: 68px;
     color: #03115F;
 }
+
+@media screen and (max-width: 767px) {
+    .clients__title {
+        font-size: 30px;
+        line-height: 32px;
+    }
+}

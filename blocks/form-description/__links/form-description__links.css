@@ -1,0 +1,8 @@
+.form-description__links {
+    margin: 40px 0 10px;
+    padding: 0;
+    max-width: 320px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}

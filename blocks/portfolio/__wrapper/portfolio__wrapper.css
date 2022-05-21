@@ -1,0 +1,11 @@
+.portfolio__wrapper {
+    max-width: 1440px;
+    padding: 0 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .portfolio__wrapper {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+}

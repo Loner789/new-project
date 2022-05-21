@@ -1,0 +1,32 @@
+.contacts__subtitle {
+    max-width: 823px;
+    margin: 0;
+    padding: 15px 0 40px;
+    font-family: 'Gotham';
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 1.1;
+    color: #EEEFF1;
+}
+
+@media screen and (max-width: 1279px) {
+    .contacts__subtitle {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .contacts__subtitle {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contacts__subtitle {
+        padding-left: 16px;
+        padding-right: 16px;
+        font-size: 30px;
+        line-height: 32px;
+    }
+}

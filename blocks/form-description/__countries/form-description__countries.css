@@ -1,0 +1,5 @@
+.form-description__countries {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(221, 221, 226, 0.2);
+}

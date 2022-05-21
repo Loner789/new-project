@@ -58,6 +58,7 @@
 @import url(../blocks/cards/_place/cards_place_benefits.css);
 /* PORTFOLIO */
 @import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/portfolio/__wrapper/portfolio__wrapper.css);
 @import url(../blocks/portfolio/__cards/portfolio__cards.css);
 @import url(../blocks/portfolio/__card/portfolio__card.css);
 @import url(../blocks/portfolio/__card/_size/portfolio__card_size_small.css);
@@ -80,3 +81,28 @@
 @import url(../blocks/clients/__title/clients__title.css);
 @import url(../blocks/clients/__container/clients__container.css);
 @import url(../blocks/clients/__item/clients__item.css);
+/* CONTACTS */
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__title/contacts__title.css);
+@import url(../blocks/contacts/__subtitle/contacts__subtitle.css);
+@import url(../blocks/contacts/__container/contacts__container.css);
+@import url(../blocks/form-container/form-container.css);
+@import url(../blocks/contacts/__form/contacts__form.css);
+@import url(../blocks/contacts/__form-title/contacts__form-title.css);
+@import url(../blocks/contacts/__form-subtitle/contacts__form-subtitle.css);
+@import url(../blocks/contacts/__form-input/contacts__form-input.css);
+@import url(../blocks/contacts/__form-input/_type/contacts__form-input_type_textarea.css);
+@import url(../blocks/contacts/__form-button-wrapper/contacts__form-button-wrapper.css);
+@import url(../blocks/contacts/__form-button/contacts__form-button.css);
+@import url(../blocks/contacts/__form-footnote/contacts__form-footnote.css);
+@import url(../blocks/contacts/__form-footnote/_span/contacts__form-footnote_span_accent.css);
+@import url(../blocks/form-description/form-description.css);
+@import url(../blocks/form-description/__title/form-description__title.css);
+@import url(../blocks/form-description/__subtitle/form-description__subtitle.css);
+@import url(../blocks/form-description/__countries/form-description__countries.css);
+@import url(../blocks/form-description/__countrie/form-description__countrie.css);
+@import url(../blocks/form-description/__countrie-title/form-description__countrie-title.css);
+@import url(../blocks/form-description/__contacts/form-description__contacts.css);
+@import url(../blocks/form-description/__links/form-description__links.css);
+@import url(../blocks/form-description/__link/form-description__link.css);
+@import url(../blocks/form-description/__link-image/description__link-image.css);

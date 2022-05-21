@@ -1,0 +1,5 @@
+.form-description__countrie {
+    max-width: 244px;
+    display: flex;
+    flex-direction: column;
+}

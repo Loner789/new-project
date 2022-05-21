@@ -1,0 +1,22 @@
+.contacts__form {
+    width: 453px;
+    padding-left: 163px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1439px) {
+    .contacts__form {
+        padding-left: 80px;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .contacts__form {
+        width: 100%;
+        box-sizing: border-box;
+        align-items: center;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

@@ -1,0 +1,17 @@
+.form-description__countrie-title {
+    margin: 0;
+    padding: 24px 0 15px;
+    font-family: 'Gotham';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #EEEFF1;
+}
+
+@media screen and (max-width: 767px) {
+    .form-description__countrie-title {
+        font-size: 12px;
+        line-height: 14px;
+    }
+}

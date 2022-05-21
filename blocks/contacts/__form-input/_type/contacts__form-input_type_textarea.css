@@ -1,0 +1,9 @@
+.contacts__form-input_type_textarea {
+    height: 96px;
+}
+
+@media screen and (max-width: 767px) {
+    .contacts__form-input_type_textarea {
+        height: 80px;
+    }
+}

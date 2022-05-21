@@ -1,0 +1,27 @@
+.contacts__form-input {
+    width: 453px;
+    height: 48px;
+    margin-bottom: 15px;
+    align-items: center;
+    padding: 14px 16px;
+    box-sizing: border-box;
+    border: none;
+    background: #FFF;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 1279px) {
+    .contacts__form-input {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contacts__form-input {
+        min-width: 343px;
+        height: 30px;
+        padding: 8px 16px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+}

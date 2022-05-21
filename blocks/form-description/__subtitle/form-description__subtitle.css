@@ -1,0 +1,17 @@
+.form-description__subtitle {
+    margin: 0;
+    padding: 0 0 6px;
+    font-family: 'Gotham';
+    font-weight: 325;
+    font-size: 16px;
+    line-height: 1.38;
+    color: #DDDDE2;
+    border-bottom: 2px solid rgba(221, 221, 226, 0.2);
+}
+
+@media screen and (max-width: 767px) {
+    .form-description__subtitle {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

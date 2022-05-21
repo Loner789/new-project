@@ -1,0 +1,24 @@
+.form-description {
+    max-width: 578px;
+    height: 464px;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #012C88;
+}
+
+@media screen and (max-width: 1279px) {
+    .form-description {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .form-description {
+        order: 2;
+        margin-top: 64px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
