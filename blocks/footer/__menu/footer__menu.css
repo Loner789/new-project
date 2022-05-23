@@ -5,3 +5,29 @@
     flex-direction: column;
     list-style: none;
 }
+
+@media screen and (max-width: 1439px) {
+    .footer__menu {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .footer__menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__menu:last-of-type {
+        flex-direction: row;
+        padding-top: 14px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__menu:last-of-type {
+        width: 343px;
+    }
+}

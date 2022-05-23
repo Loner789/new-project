@@ -7,3 +7,10 @@
     line-height: 1.25;
     color: #F0F0F1;
 }
+
+@media screen and (max-width: 1023px) {
+    .footer__signature {
+        font-size: 11px;
+        line-height: 14px;
+    }
+}

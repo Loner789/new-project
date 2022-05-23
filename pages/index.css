@@ -131,6 +131,7 @@
 @import url(../blocks/footer/__menu/footer__menu.css);
 @import url(../blocks/footer/__menu-item/footer__menu-item.css);
 @import url(../blocks/footer/__menu-link/footer__menu-link.css);
+@import url(../blocks/footer/__link-text/footer__link-text.css);
 @import url(../blocks/footer/__link-image/footer__link-image.css);
 @import url(../blocks/footer/__info/footer__info.css);
 @import url(../blocks/footer/__signature/footer__signature.css);

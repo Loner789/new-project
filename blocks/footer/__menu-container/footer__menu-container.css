@@ -2,4 +2,13 @@
     width: 595px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1439px) {
+    .footer__menu-container {
+        width: 60%;
+        min-height: 155px;
+        flex-direction: column;
+    }
 }

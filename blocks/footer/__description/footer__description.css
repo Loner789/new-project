@@ -3,3 +3,21 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 1439px) {
+    .footer__description {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .footer__description {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__description {
+        width: 343px;
+    }
+}

@@ -11,3 +11,10 @@
 .footer__team-contacts:last-child {
     padding-bottom: 0;
 }
+
+@media screen and (max-width: 1023px) {
+    .footer__team-contacts {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

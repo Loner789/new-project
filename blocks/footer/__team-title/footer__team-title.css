@@ -8,3 +8,10 @@
     text-transform: uppercase;
     color: #F0F0F1;
 }
+
+@media screen and (max-width: 1023px) {
+    .footer__team-title {
+        font-size: 12px;
+        line-height: 14px;
+    }
+}

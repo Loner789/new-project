@@ -4,3 +4,9 @@
     background-color: transparent;
     display: none;
 }
+
+@media screen and (max-width: 1439px) {
+    .footer__link-image {
+        display: inline;
+    }
+}

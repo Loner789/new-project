@@ -1,5 +1,4 @@
-.footer__menu-link {
-    text-decoration: none;
+.footer__link-text {
     margin: 0;
     padding: 0;
     font-family: 'Gotham';
@@ -11,9 +10,8 @@
     color: #E0E1E3;
 }
 
-@media screen and (max-width: 1023px) {
-    .footer__menu-link {
-        font-size: 16px;
-        line-height: 24px;
+@media screen and (max-width: 1439px) {
+    .footer__link-text {
+        display: none;
     }
 }
