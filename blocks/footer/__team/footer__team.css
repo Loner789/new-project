@@ -1,0 +1,4 @@
+.footer__team {
+    display: flex;
+    flex-direction: column;
+}

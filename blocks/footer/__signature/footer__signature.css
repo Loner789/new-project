@@ -1,0 +1,9 @@
+.footer__signature {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham';
+    font-weight: 325;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #F0F0F1;
+}

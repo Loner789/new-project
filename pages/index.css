@@ -119,3 +119,20 @@
 @import url(../blocks/faq/__answer-button/_active/faq__answer-button_opened.css);
 @import url(../blocks/faq/__answer/faq__answer.css);
 @import url(../blocks/faq/__answer/_opened/faq__answer_opened.css);
+/* FOOTER */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__wrapper/footer__wrapper.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__description/footer__description.css);
+@import url(../blocks/footer/__team/footer__team.css);
+@import url(../blocks/footer/__team-title/footer__team-title.css);
+@import url(../blocks/footer/__team-contacts/footer__team-contacts.css);
+@import url(../blocks/footer/__menu-container/footer__menu-container.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__menu-item/footer__menu-item.css);
+@import url(../blocks/footer/__menu-link/footer__menu-link.css);
+@import url(../blocks/footer/__link-image/footer__link-image.css);
+@import url(../blocks/footer/__info/footer__info.css);
+@import url(../blocks/footer/__signature/footer__signature.css);
+@import url(../blocks/footer/__policy-container/footer__policy-container.css);
+@import url(../blocks/footer/__policy/footer__policy.css);

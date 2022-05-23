@@ -1,0 +1,20 @@
+.footer__policy {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #E0E1E3;
+}
+
+.footer__policy::after {
+    content: "|";
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.footer__policy:last-of-type::after {
+    display: none;
+}

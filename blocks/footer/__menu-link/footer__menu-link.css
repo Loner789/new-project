@@ -1,0 +1,12 @@
+.footer__menu-link {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham';
+    font-weight: 325;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #E0E1E3;
+}

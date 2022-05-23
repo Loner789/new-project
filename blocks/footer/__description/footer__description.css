@@ -1,0 +1,5 @@
+.footer__description {
+    width: 586px;
+    display: flex;
+    justify-content: space-between;
+}
