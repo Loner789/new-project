@@ -1,0 +1,26 @@
+.faq__answer {
+    display: none;
+    max-width: 946px;
+    margin: 0 auto 24px 124px;
+    padding: 0 48px 0 0;
+    font-family: 'Gotham';
+    font-weight: 325;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #75788D;
+}
+
+@media screen and (max-width: 1023px) {
+    .faq__answer {
+        margin-left: 64px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .faq__answer {
+        margin-left: 24px;
+        margin-bottom: 16px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

@@ -1,0 +1,16 @@
+.faq__title {
+    margin: 0;
+    padding-bottom: 8px;
+    font-family: 'Gotham';
+    font-weight: 325;
+    font-size: 26px;
+    line-height: 1.23;
+    color: #35417F;
+}
+
+@media screen and (max-width: 767px) {
+    .faq__title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}

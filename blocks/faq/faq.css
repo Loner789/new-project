@@ -1,0 +1,12 @@
+.faq {
+    max-width: 1194px;
+    padding: 0 30px;
+    font-family: 'Inter', 'Gotham', 'Gotham XNarrow', sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+    .faq {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+}

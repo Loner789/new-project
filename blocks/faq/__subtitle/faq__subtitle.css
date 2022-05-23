@@ -1,0 +1,17 @@
+.faq__subtitle {
+    max-width: 947px;
+    margin: 0;
+    padding-bottom: 74px;
+    font-family: 'Gotham';
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 1.1;
+    color: #03115F;
+}
+
+@media screen and (max-width: 767px) {
+    .faq__subtitle {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+}

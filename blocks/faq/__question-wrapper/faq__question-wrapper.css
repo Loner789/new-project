@@ -1,0 +1,12 @@
+.faq__question-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 22px;
+}
+
+@media screen and (max-width: 767px) {
+    .faq__question-wrapper {
+        padding-bottom: 14px;
+    }
+}

@@ -283,9 +283,6 @@
                         <input type="text" name="company" placeholder="Компания" class="contacts__form-input">
                         <input type="email" name="email" placeholder="Электронная почта*" class="contacts__form-input" required>
                         <textarea type="text" name="message" placeholder="Сообщение" class="contacts__form-input contacts__form-input_type_textarea"></textarea>
-                        <!-- <small class="contacts__form-footnote"><span
-                                class="contacts__form-footnote contacts__form-footnote_span_accent">*</span>
-                            обязательные поля для заполнения</small> -->
                         <div class="contacts__form-button-wrapper">
                             <label class="contacts__form-footnote"><span
                                 class="contacts__form-footnote contacts__form-footnote_span_accent">*</span>
@@ -298,7 +295,41 @@
                 </div>
             </div>
         </section>
-        <section class="faq"></section>
+        <section class="faq main-placement">
+            <h2 class="faq__title" lang="en">FAQ</h2>
+            <p class="faq__subtitle">Возможно, у вас остались вопросы. Отвечаем</p>
+            <ul class="faq__questions">
+                <li class="faq__question-item">
+                    <div class="faq__question-wrapper">
+                        <h3 class="faq__qestion">Когда я смогу использовать готовый продукт?</h3>
+                        <button type="button" class="faq__answer-button faq__answer-button_active" aria-label="ответ"></button>
+                    </div>
+                    <p class="faq__answer faq__answer_opened">Мы обеспечиваем полный цикл разработки программного обеспечения, развертывания и послерелизной поддержки. Вы получите функциональный, масштабируемый и безопасный продукт, идеально подходящий для бизнеса.
+                        MVP за 90 дней.</p>
+                </li>
+                <li class="faq__question-item">
+                    <div class="faq__question-wrapper">
+                        <h3 class="faq__qestion">У меня есть недоработанное приложение. Вы можете его доработать?</h3>
+                        <button type="button" class="faq__answer-button" aria-label="ответ"></button>
+                    </div>
+                    <p class="faq__answer">Ну, конечно же)</p>
+                </li>
+                <li class="faq__question-item">
+                    <div class="faq__question-wrapper">
+                        <h3 class="faq__qestion">Сколько стоит разработка сайта?</h3>
+                        <button type="button" class="faq__answer-button" aria-label="ответ"></button>
+                    </div>
+                    <p class="faq__answer">100500 миллионов</p>
+                </li>
+                <li class="faq__question-item">
+                    <div class="faq__question-wrapper">
+                        <h3 class="faq__qestion">Вы даёте гарантию на мобильное приложение?</h3>
+                        <button type="button" class="faq__answer-button" aria-label="ответ"></button>
+                    </div>
+                    <p class="faq__answer">Какая гарантия, Вы о чём?</p>
+                </li>
+            </ul>
+        </section>
     </main>
     <footer class="footer"></footer>
     <script src="scripts/index.js"></script>

@@ -1,0 +1,3 @@
+.faq__answer-button_active {
+    transform: rotate(-45deg);
+}

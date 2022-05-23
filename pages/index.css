@@ -106,3 +106,16 @@
 @import url(../blocks/form-description/__links/form-description__links.css);
 @import url(../blocks/form-description/__link/form-description__link.css);
 @import url(../blocks/form-description/__link-image/description__link-image.css);
+/* FAQ */
+@import url(../blocks/faq/faq.css);
+@import url(../blocks/faq/__title/faq__title.css);
+@import url(../blocks/faq/__subtitle/faq__subtitle.css);
+@import url(../blocks/faq/__questions/faq__questions.css);
+@import url(../blocks/faq/__question-item/faq__question-item.css);
+@import url(../blocks/faq/__question-wrapper/faq__question-wrapper.css);
+@import url(../blocks/faq/__qestion/faq__qestion.css);
+@import url(../blocks/faq/__qestion/faq__qestion.css);
+@import url(../blocks/faq/__answer-button/faq__answer-button.css);
+@import url(../blocks/faq/__answer-button/_active/faq__answer-button_opened.css);
+@import url(../blocks/faq/__answer/faq__answer.css);
+@import url(../blocks/faq/__answer/_opened/faq__answer_opened.css);

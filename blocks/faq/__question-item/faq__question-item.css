@@ -1,0 +1,16 @@
+.faq__question-item {
+    margin-bottom: 26px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #DDDDE2;
+}
+
+.faq__question-item:last-of-type {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .faq__question-item {
+        margin-bottom: 17px;
+    }
+}
