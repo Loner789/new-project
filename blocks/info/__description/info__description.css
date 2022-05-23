@@ -1,26 +1,25 @@
 .info__description {
-    max-width: 451px;
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
+    margin: 0;
+    padding: 24px 0 40px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 325;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #535670;
 }
 
-
-@media  screen and (max-width: 1439px) {
+@media screen and (max-width: 1279px) {
     .info__description {
-        align-self: center;
+        padding-top: 16px;
+        padding-bottom: 18px;
     }
 }
 
-@media  screen and (max-width: 1279px) {
+@media screen and (max-width: 767px) {
     .info__description {
-        max-width: 947px;
-    }
-}
-
-@media  screen and (max-width: 767px) {
-    .info__description {
-        padding-left: 16px;
-        padding-right: 16px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
     }
 }

@@ -1,25 +1,27 @@
 .info__title {
-    max-width: 100%;
     margin: 0;
-    padding: 50px 0 0;
+    padding-bottom: 24px;
     font-family: 'Gotham';
     font-style: normal;
-    font-weight: 700;
-    font-size: 62px;
-    line-height: 68px;
-    color: #03115F;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    color: #35417F;
 }
 
 @media screen and (max-width: 1279px) {
     .info__title {
-        padding-top: 8px;
+        order: 2;
+        padding-top: 24px;
+        padding-bottom: 0;
     }
 }
 
 @media screen and (max-width: 767px) {
     .info__title {
-        font-weight: 700;
-        font-size: 30px;
-        line-height: 32px;
+        padding-left: 16px;
+        font-weight: 325;
+        font-size: 20px;
+        line-height: 24px;
     }
 }

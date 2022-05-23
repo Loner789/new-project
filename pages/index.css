@@ -32,11 +32,11 @@
 /* INFO */
 @import url(../blocks/info/info.css);
 @import url(../blocks/info/__picture/info__picture.css);
-@import url(../blocks/info/__caption/info__caption.css);
-@import url(../blocks/info/__image/info__image.css);
-@import url(../blocks/info/__description/info__description.css);
 @import url(../blocks/info/__title/info__title.css);
+@import url(../blocks/info/__image/info__image.css);
+@import url(../blocks/info/__description-container/info__description-container.css);
 @import url(../blocks/info/__subtitle/info__subtitle.css);
+@import url(../blocks/info/__description/info__description.css);
 @import url(../blocks/info/__buttons/info__buttons.css);
 @import url(../blocks/button-vacations/button-vacations.css);
 @import url(../blocks/button-read-more/button-read-more.css);
