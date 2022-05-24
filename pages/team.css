@@ -1,0 +1,26 @@
+/* VENDOR */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+/* PAGE */
+@import url(../blocks/root/root.css);
+/* HEADER */
+@import url(../blocks/team-header/team-header.css);
+@import url(../blocks/heading/heading.css);
+@import url(../blocks/heading/__logo/heading__logo.css);
+@import url(../blocks/heading/__logo-link/heading__logo-link.css);
+@import url(../blocks/heading/__logo-title/heading__logo-title.css);
+@import url(../blocks/heading/__logo-subtitle/heading__logo-subtitle.css);
+@import url(../blocks/heading/__menu/heading__menu.css);
+@import url(../blocks/heading/__menu-item/heading__menu-item.css);
+@import url(../blocks/heading/__burger-menu/heading__burger-menu.css);
+@import url(../blocks/heading/__menu-links/heading__menu-links.css);
+@import url(../blocks/heading/__menu-link/heading__menu-link.css);
+@import url(../blocks/heading/__menu-lang-link/heading__menu-lang-link.css);
+@import url(../blocks/heading/__search-form/heading__search-form.css);
+@import url(../blocks/heading/__search-box/heading__search-box.css);
+@import url(../blocks/heading/__search-icon/heading__search-icon.css);
+@import url(../blocks/team-header/__content/team-header__content.css);
+@import url(../blocks/team-header/__title/team-header__title.css);
+@import url(../blocks/team-header/__subtitle/team-header__subtitle.css);
+@import url(../blocks/team-header/__description/team-header__description.css);
+@import url(../blocks/main-placement/main-placement.css);
