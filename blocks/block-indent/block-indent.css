@@ -1,15 +1,15 @@
-.main-placement {
+.block-indent {
     margin: 0 auto 180px auto;
 }
 
 @media screen and (max-width: 1439px) {
-    .main-placement {
+    .block-indent {
         margin-bottom: 100px;
     }
 }
 
 @media screen and (max-width: 1279px) {
-    .main-placement {
+    .block-indent {
         margin-bottom: 80px;
     }
 }

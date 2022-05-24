@@ -1,0 +1,12 @@
+.business-card {
+    width: 330px;
+    height: 434px;
+    position: relative;
+}
+
+@media screen and (max-width: 767px) {
+    .business-card {
+        width: 343px;
+        height: 350px;
+    }
+}

@@ -1,0 +1,16 @@
+.business-card__subtitle {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham';
+    font-weight: 325;
+    font-size: 16px;
+    line-height: 1.38;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .business-card__subtitle {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

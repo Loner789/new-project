@@ -28,7 +28,7 @@
 @import url(../blocks/header/__advantage-subtitle/header__advantage-subtitle.css);
 @import url(../blocks/button-project-order/button-project-order.css);
 @import url(../blocks/button-project-order/_place/button-project-order_place_portfolio.css);
-@import url(../blocks/main-placement/main-placement.css);
+@import url(../blocks/block-indent/block-indent.css);
 /* INFO */
 @import url(../blocks/info/info.css);
 @import url(../blocks/info/__picture/info__picture.css);

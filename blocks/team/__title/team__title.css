@@ -1,0 +1,17 @@
+.team__title {
+    margin: 0;
+    padding: 0 0 24px;
+    font-family: 'Gotham';
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 1.19;
+    color: #03115F;
+}
+
+
+@media screen and (max-width: 767px) {
+    .team__title {
+        font-size: 30px;
+        line-height: 1.07;
+    }
+}

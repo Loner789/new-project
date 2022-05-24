@@ -23,4 +23,14 @@
 @import url(../blocks/team-header/__title/team-header__title.css);
 @import url(../blocks/team-header/__subtitle/team-header__subtitle.css);
 @import url(../blocks/team-header/__description/team-header__description.css);
-@import url(../blocks/main-placement/main-placement.css);
+@import url(../blocks/block-indent/block-indent.css);
+/* TEAM */
+@import url(../blocks/team/team.css);
+@import url(../blocks/team/__text-block/team__text-block.css);
+@import url(../blocks/team/__title/team__title.css);
+@import url(../blocks/team/__subtitle/team__subtitle.css);
+@import url(../blocks/business-card/business-card.css);
+@import url(../blocks/business-card/__image/business-card__image.css);
+@import url(../blocks/business-card/__title/business-card__title.css);
+@import url(../blocks/business-card/__subtitle/business-card__subtitle.css);
+@import url(../blocks/business-card/__icon/business-card__icon.css);

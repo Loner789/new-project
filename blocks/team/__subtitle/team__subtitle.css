@@ -1,0 +1,16 @@
+.team__subtitle {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham';
+    font-weight: 325;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #535670;
+}
+
+@media screen and (max-width: 767px) {
+    .team__subtitle {
+        font-size: 14px;
+        line-height: 1.43;
+    }
+}

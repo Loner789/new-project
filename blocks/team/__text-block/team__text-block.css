@@ -1,0 +1,14 @@
+.team__text-block {
+    max-width: 696px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+@media screen and (max-width: 767px) {
+    .team__text-block {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+}

@@ -1,0 +1,12 @@
+.business-card__image {
+    width: 330px;
+    height: 330px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+    .business-card__image {
+        width: 343px;
+        height: 300px;
+    }
+}

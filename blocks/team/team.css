@@ -1,0 +1,16 @@
+.team {
+    max-width: 1440px;
+    padding: 0 30px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fill, 330px);
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+    .team {
+        padding-right: 16px;
+        padding-left: 16px;
+        grid-template-columns: repeat(auto-fill, 343px);
+    }
+}

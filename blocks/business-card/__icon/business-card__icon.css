@@ -1,0 +1,14 @@
+.business-card__icon {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+@media screen and (max-width: 767px) {
+    .business-card__icon {
+        top: 16px;
+        right: 16px;
+    }
+}
