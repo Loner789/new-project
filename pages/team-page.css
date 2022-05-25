@@ -34,3 +34,10 @@
 @import url(../blocks/business-card/__title/business-card__title.css);
 @import url(../blocks/business-card/__subtitle/business-card__subtitle.css);
 @import url(../blocks/business-card/__icon/business-card__icon.css);
+/* VACATIONS */
+@import url(../blocks/vacations/vacations.css);
+@import url(../blocks/vacations/__content/vacations__content.css);
+@import url(../blocks/vacations/__title/vacations__title.css);
+@import url(../blocks/vacations/__subtitle/vacations__subtitle.css);
+@import url(../blocks/button-vacations/button-vacations.css);
+@import url(../blocks/button-vacations/_place/button-vacations_place_team.css);

@@ -1,0 +1,25 @@
+.vacations {
+    max-width: 100%;
+    min-height: 820px;
+    background-image: url(../../images/team_opened_positions_bgi.png);
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 1439px) {
+    .vacations {
+        min-height: 700px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .vacations {
+        min-height: 500px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .vacations {
+        min-height: 322px;
+    }
+}
