@@ -1,0 +1,5 @@
+.services__card-content {
+    max-width: 792px;
+    display: flex;
+    flex-direction: column;
+}

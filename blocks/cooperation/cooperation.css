@@ -1,0 +1,14 @@
+.cooperation {
+    max-width: 1440px;
+    padding: 0 30px;
+    font-family: 'Inter', 'Gotham', 'Gotham XNarrow', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1023px) {
+    .cooperation {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

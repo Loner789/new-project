@@ -1,0 +1,5 @@
+.services__card-description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}

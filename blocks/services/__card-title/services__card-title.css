@@ -1,0 +1,20 @@
+.services__card-title {
+    margin: 0;
+    padding: 0 0 15px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 1.19;
+    background: linear-gradient(130.67deg, #1E74EC 6.5%, #002984 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+@media screen and (max-width: 767px) {
+    .services__card-title {
+        font-size: 18px;
+        line-height: 1.22;
+    }
+}

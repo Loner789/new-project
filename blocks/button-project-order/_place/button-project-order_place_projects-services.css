@@ -1,0 +1,19 @@
+.button-project-order_place_projects-services {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .button-project-order_place_projects-services {
+        margin: 0;
+        padding: 0;
+        width: 147px;
+        height: 32px;
+        display: block;
+        border: none;
+        border-radius: 0;
+        background-color: transparent;
+        color: #1E74EC;
+        font-family: 'Roboto';
+        font-weight: 700;
+    }
+}

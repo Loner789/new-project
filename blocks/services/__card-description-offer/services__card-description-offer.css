@@ -1,0 +1,13 @@
+.services__card-description-offer {
+    max-width: 242px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+    .services__card-description-offer {
+        max-width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

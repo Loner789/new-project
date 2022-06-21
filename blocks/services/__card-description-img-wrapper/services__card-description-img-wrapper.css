@@ -1,0 +1,7 @@
+.services__card-description-img-wrapper {
+    margin: 0;
+    padding: 34px 0 24px;
+    width: 100%;
+    display: flex;
+    gap: 40px;
+}

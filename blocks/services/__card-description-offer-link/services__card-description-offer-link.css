@@ -1,0 +1,17 @@
+.services__card-description-offer-link {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #A960AB;
+}
+
+@media screen and (max-width: 767px) {
+    .services__card-description-offer-link {
+        display: none;
+    }
+}

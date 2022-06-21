@@ -1,0 +1,39 @@
+.services__cards {
+    padding: 110px 40px 180px 240px;
+    box-sizing: border-box;
+    width: 100%;
+    display: grid;
+    gap: 109px;
+}
+
+@media screen and (max-width: 1659px) {
+    .services__cards {
+        padding-left: 150px;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .services__cards {
+        padding-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .services__cards {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .services__cards {
+        padding: 40px 80px 100px;
+        gap: 60px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .services__cards {
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+}

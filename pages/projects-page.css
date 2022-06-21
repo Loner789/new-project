@@ -26,8 +26,42 @@
 @import url(../blocks/page-header/__description/page-header__description.css);
 @import url(../blocks/button-project-order/button-project-order.css);
 @import url(../blocks/button-project-order/_place/button-project-order_place_projects.css);
+@import url(../blocks/button-project-order/_place/button-project-order_place_projects-services.css);
 @import url(../blocks/block-indent/block-indent.css);
-/* TEAM */
+/* COOPERATION */
+@import url(../blocks/cooperation/cooperation.css);
+@import url(../blocks/block-indent/block-indent.css);
+@import url(../blocks/block-heading/block-heading.css);
+@import url(../blocks/block-heading/_place/block-heading_place_projects-services.css);
+@import url(../blocks/block-heading/__title/block-heading__title.css);
+@import url(../blocks/block-heading/__subtitle/block-heading__subtitle.css);
+@import url(../blocks/cooperation/__slider/cooperation__slider.css);
+@import url(../blocks/slide/slide.css);
+@import url(../blocks/slide/__img/slide__img.css);
+@import url(../blocks/slide/__title/slide__title.css);
+@import url(../blocks/slide/__subtitle/slide__subtitle.css);
+/* SERVICES */
+@import url(../blocks/services/services.css);
+@import url(../blocks/services/__contaner/services__contaner.css);
+@import url(../blocks/services/__heading/services__heading.css);
+@import url(../blocks/services/__items/services__items.css);
+@import url(../blocks/services/__item/services__item.css);
+@import url(../blocks/services/__item-img/services__item-img.css);
+@import url(../blocks/services/__item-title/services__item-title.css);
+
+@import url(../blocks/services/__cards/services__cards.css);
+@import url(../blocks/services/__card/services__card.css);
+@import url(../blocks/services/__card-number/services__card-number.css);
+@import url(../blocks/services/__card-content/services__card-content.css);
+@import url(../blocks/services/__card-title/services__card-title.css);
+@import url(../blocks/services/__card-subtitle/services__card-subtitle.css);
+@import url(../blocks/services/__card-description/services__card-description.css);
+@import url(../blocks/services/__card-description-text/services__card-description-text.css);
+@import url(../blocks/services/__card-description-img-wrapper/services__card-description-img-wrapper.css);
+@import url(../blocks/services/__card-description-img/services__card-description-img.css);
+@import url(../blocks/services/__card-description-offer/services__card-description-offer.css);
+@import url(../blocks/services/__card-description-offer-text/services__card-description-offer-text.css);
+@import url(../blocks/services/__card-description-offer-link/services__card-description-offer-link.css);
 
 /* FOOTER */
 @import url(../blocks/footer/footer.css);

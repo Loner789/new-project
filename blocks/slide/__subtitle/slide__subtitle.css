@@ -1,0 +1,11 @@
+.slide__subtitle {
+    margin: 0;
+    padding: 0 34px 23px 40px;
+    max-height: 176px;
+    overflow: hidden;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 325;
+    font-size: 16px;
+    line-height: 1.38;
+}

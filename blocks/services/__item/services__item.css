@@ -1,0 +1,11 @@
+.services__item {
+    width: 207px;
+    text-align: center;
+    align-content: center;
+}
+
+@media  screen and (max-width: 767px) {
+    .services__item {
+        width: 112px;
+    }
+}
