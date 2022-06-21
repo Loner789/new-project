@@ -10,7 +10,6 @@
     line-height: 19px;
     letter-spacing: 0.02em;
     color: #EEEFF1;
-    border-radius: 8px;
     cursor: pointer;
 }
 
@@ -24,8 +23,9 @@
 
 @media screen and (max-width: 767px) {
     .button-project-order {
-        width: 310px;
+        width: 343px;
         padding: 16px 34px;
+        border-radius: 8px;
         font-size: 14px;
         line-height: 16px;
     }

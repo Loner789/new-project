@@ -1,0 +1,11 @@
+.button-project-order_place_projects {
+    margin-top: 46px;
+    margin-bottom: 71px;
+}
+
+@media screen and (max-width: 767px) {
+    .button-project-order_place_projects {
+        margin-top: 80px;
+        margin-bottom: 64px;
+    }
+}

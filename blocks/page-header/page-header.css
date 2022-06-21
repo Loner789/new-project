@@ -1,4 +1,4 @@
-.team-header {
+.page-header {
     width: 100%;
     min-height: 660px;
     margin: 0 0 180px;
@@ -8,16 +8,17 @@
     padding: 0 30px;
     background-size: cover;
     box-sizing: border-box;
+    background-position: center;
 }
 
 @media screen and (max-width: 1023px) {
-    .team-header {
+    .page-header {
         min-height: 580px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .team-header {
+    .page-header {
         min-height: 436px;
         padding-left: 16px;
         padding-right: 16px;

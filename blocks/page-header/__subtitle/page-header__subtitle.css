@@ -1,4 +1,4 @@
-.team-header__subtitle {
+.page-header__subtitle {
     margin: 0;
     padding: 0 0 16px;
     font-family: 'Gotham';
@@ -9,14 +9,14 @@
 }
 
 @media screen and (max-width: 1279px) {
-    .team-header__subtitle {
+    .page-header__subtitle {
         font-size: 48px;
         line-height: 1.1;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .team-header__subtitle {
+    .page-header__subtitle {
         font-size: 30px;
         line-height: 32px;
     }
