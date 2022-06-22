@@ -5,3 +5,11 @@
     display: flex;
     gap: 40px;
 }
+
+@media screen and (max-width: 767px) {
+    .services__card-description-img-wrapper {
+        padding-top: 16px;
+        padding-bottom: 26px;
+        gap: 24px;
+    }
+}

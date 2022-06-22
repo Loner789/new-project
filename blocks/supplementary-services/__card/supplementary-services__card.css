@@ -1,0 +1,14 @@
+.supplementary-services__card {
+    width: 453px;
+    min-height: 214px;
+    display: flex;
+    background: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .supplementary-services__card {
+        width: 100%;
+        background: transparent;
+        min-height: 20px;
+    }
+}

@@ -10,6 +10,7 @@
 
 @media screen and (max-width: 767px) {
     .services__card-subtitle {
+        padding-bottom: 24px;
         font-size: 14px;
         line-height: 1.43;
     }

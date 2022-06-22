@@ -1,0 +1,25 @@
+.supplementary-services__card-text {
+    margin: 0;
+    padding: 61px 47px 61px 40px;
+    max-width: 206px;
+    min-height: 92px;
+    display: flex;
+    align-items: center;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.23;
+    color: #35417F;
+}
+
+@media screen and (max-width: 767px) {
+    .supplementary-services__card-text {
+        padding: 0 0 0 8px;
+        max-width: 250px;
+        min-height: 20px;
+        font-family: 'Rubik';
+        font-size: 14px;
+        line-height: 1.43;
+    }
+}

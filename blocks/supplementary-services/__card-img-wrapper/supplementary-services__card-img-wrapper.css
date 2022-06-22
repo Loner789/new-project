@@ -1,0 +1,15 @@
+.supplementary-services__card-img-wrapper {
+    width: 160px;
+    background: linear-gradient(130.67deg, #1E74EC 6.5%, #002984 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+    .supplementary-services__card-img-wrapper {
+        width: 18px;
+        height: 18px;
+        background-image: url(../../../images/icon_check_mark.svg);
+    }
+}

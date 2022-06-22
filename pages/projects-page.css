@@ -48,7 +48,7 @@
 @import url(../blocks/services/__item/services__item.css);
 @import url(../blocks/services/__item-img/services__item-img.css);
 @import url(../blocks/services/__item-title/services__item-title.css);
-
+/* services-cards */
 @import url(../blocks/services/__cards/services__cards.css);
 @import url(../blocks/services/__card/services__card.css);
 @import url(../blocks/services/__card-number/services__card-number.css);
@@ -62,6 +62,15 @@
 @import url(../blocks/services/__card-description-offer/services__card-description-offer.css);
 @import url(../blocks/services/__card-description-offer-text/services__card-description-offer-text.css);
 @import url(../blocks/services/__card-description-offer-link/services__card-description-offer-link.css);
+/* SUPPLEMENTARY-SERVICES */
+@import url(../blocks/supplementary-services/supplementary-services.css);
+@import url(../blocks/supplementary-services/__container/supplementary-services__container.css);
+@import url(../blocks/supplementary-services/__title/supplementary-services__title.css);
+@import url(../blocks/supplementary-services/__card-container/supplementary-services__card-container.css);
+@import url(../blocks/supplementary-services/__card/supplementary-services__card.css);
+@import url(../blocks/supplementary-services/__card-img-wrapper/supplementary-services__card-img-wrapper.css);
+@import url(../blocks/supplementary-services/__card-img/supplementary-services__card-img.css);
+@import url(../blocks/supplementary-services/__card-text/supplementary-services__card-text.css);
 
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
