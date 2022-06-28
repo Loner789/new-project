@@ -1,0 +1,8 @@
+.project-form__chapter {
+    padding-bottom: 24px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #DDDDE2;
+    box-sizing: border-box;
+}

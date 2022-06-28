@@ -1,0 +1,14 @@
+.project-form__brief-btn {
+    padding: 14px 20px;
+    width: 206px;
+    height: 48px;
+    border: 3px solid #1E74EC;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #1E74EC;
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.project-form {
+    margin: 0 auto;
+    padding: 64px 124px;
+    max-width: 1194px;
+    min-height: 882px;
+    box-sizing: border-box;
+    background: #EEEFF1;
+    display: flex;
+}

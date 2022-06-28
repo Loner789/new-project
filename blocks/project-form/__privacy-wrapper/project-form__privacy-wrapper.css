@@ -1,0 +1,8 @@
+.project-form__privacy-wrapper {
+    display: flex;
+    padding: 14px 16px;
+    box-sizing: border-box;
+    flex-direction: column;
+    background: #E6E8EF;
+    border-radius: 4px;
+}

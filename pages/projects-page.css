@@ -71,7 +71,30 @@
 @import url(../blocks/supplementary-services/__card-img-wrapper/supplementary-services__card-img-wrapper.css);
 @import url(../blocks/supplementary-services/__card-img/supplementary-services__card-img.css);
 @import url(../blocks/supplementary-services/__card-text/supplementary-services__card-text.css);
-
+/* DISCUSSION */
+@import url(../blocks/discussion/discussion.css);
+@import url(../blocks/discussion/__content/discussion__content.css);
+@import url(../blocks/discussion/__title/discussion__title.css);
+@import url(../blocks/discussion/__subtitle/discussion__subtitle.css);
+@import url(../blocks/discussion/__description/discussion__description.css);
+/* PROJECT-FORM */
+@import url(../blocks/project-form/project-form.css);
+@import url(../blocks/project-form/__container/project-form__container.css);
+@import url(../blocks/project-form/__chapter/project-form__chapter.css);
+@import url(../blocks/project-form/__chapter/_type/project-form__chapter_type_submission.css);
+@import url(../blocks/project-form/__description/project-form__description.css);
+@import url(../blocks/project-form/__description-title/project-form__description-title.css);
+@import url(../blocks/project-form/__description-subtitle/project-form__description-subtitle.css);
+@import url(../blocks/project-form/__inputs/project-form__inputs.css);
+@import url(../blocks/project-form/__input/project-form__input.css);
+@import url(../blocks/project-form/__input/_type/project-form__input_type_textarea.css);
+@import url(../blocks/project-form/__brief-btn/project-form__brief-btn.css);
+@import url(../blocks/project-form/__privacy-wrapper/project-form__privacy-wrapper.css);
+@import url(../blocks/project-form/__privacy/project-form__privacy.css);
+@import url(../blocks/project-form/__privacy-link/project-form__privacy-link.css);
+@import url(../blocks/project-form/__submission/project-form__submission.css);
+@import url(../blocks/project-form/__submission-text/project-form__submission-text.css);
+@import url(../blocks/project-form/__submission-btn/project-form__submission-btn.css);
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__wrapper/footer__wrapper.css);

@@ -1,0 +1,11 @@
+.project-form__input {
+    margin: 0;
+    padding: 14px 16px;
+    width: 453px;
+    height: 48px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    align-items: center;
+}

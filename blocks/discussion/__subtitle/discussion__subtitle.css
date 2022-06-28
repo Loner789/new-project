@@ -1,0 +1,17 @@
+.discussion__subtitle {
+    margin: 0;
+    padding: 0 0 24px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 1.1;
+    color: #EEEFF1;
+}
+
+@media screen and (max-width: 767px) {
+    .discussion__subtitle {
+        font-size: 30px;
+        line-height: 1.07;
+    }
+}

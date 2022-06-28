@@ -13,7 +13,7 @@
     <header class="page-header page-header_place_projects block-indent">
         <div class="heading">
             <a href="#" class="heading__logo-link">
-                <img src="/images/logo_ust.svg" alt="логотип" class="heading__logo">
+                <img src="images/logo_ust.svg" alt="логотип" class="heading__logo">
                 <h2 lang="en" class="heading__logo-title">Union Smart Technology</h2>
                 <p lang="en" class="heading__logo-subtitle">Simple solutions for complex problems</p>
             </a>
@@ -77,7 +77,7 @@
                 </article>
             </div>
         </section>
-        <section class="services">
+        <section class="services block-indent">
             <div class="services__contaner">
                 <div class="services__heading">
                     <div class="block-heading block-heading_place_projects-services">
@@ -269,7 +269,8 @@
                 <ul class="supplementary-services__card-container">
                     <li class="supplementary-services__card">
                         <div class="supplementary-services__card-img-wrapper">
-                            <img src="images/icon_chat_bots.svg" alt="Разработка чат-ботов." class="supplementary-services__card-img">
+                            <img src="images/icon_chat_bots.svg" alt="Разработка чат-ботов."
+                                class="supplementary-services__card-img">
                         </div>
                         <p class="supplementary-services__card-text">Разработка чат-ботов</p>
                     </li>
@@ -281,30 +282,93 @@
                     </li>
                     <li class="supplementary-services__card">
                         <div class="supplementary-services__card-img-wrapper">
-                            <img src="images/icon_mobile_games.svg" alt="Разработка мобильных игр." class="supplementary-services__card-img">
+                            <img src="images/icon_mobile_games.svg" alt="Разработка мобильных игр."
+                                class="supplementary-services__card-img">
                         </div>
                         <p class="supplementary-services__card-text">Разработка мобильных игр</p>
                     </li>
                     <li class="supplementary-services__card">
                         <div class="supplementary-services__card-img-wrapper">
-                            <img src="images/icon_tech_task.svg" alt="Составление технического задания." class="supplementary-services__card-img">
+                            <img src="images/icon_tech_task.svg" alt="Составление технического задания."
+                                class="supplementary-services__card-img">
                         </div>
                         <p class="supplementary-services__card-text">Составление технического задания</p>
                     </li>
                     <li class="supplementary-services__card">
                         <div class="supplementary-services__card-img-wrapper">
-                            <img src="images/icon_server_dev.svg" alt="Серверная разработка." class="supplementary-services__card-img">
+                            <img src="images/icon_server_dev.svg" alt="Серверная разработка."
+                                class="supplementary-services__card-img">
                         </div>
                         <p class="supplementary-services__card-text">Серверная разработка</p>
                     </li>
                     <li class="supplementary-services__card">
                         <div class="supplementary-services__card-img-wrapper">
-                            <img src="images/icon_outsourcing.svg" alt="Аутсорсинг." class="supplementary-services__card-img">
+                            <img src="images/icon_outsourcing.svg" alt="Аутсорсинг."
+                                class="supplementary-services__card-img">
                         </div>
                         <p class="supplementary-services__card-text">Аутсорсинг</p>
                     </li>
                 </ul>
             </div>
+        </section>
+        <section class="discussion block-indent">
+            <div class="discussion__content">
+                <h2 class="discussion__title">Обсуждаем</h2>
+                <p class="discussion__subtitle">Ваш проект</p>
+                <p class="discussion__description">Если вы хотите стать частью нашей команды, оставьте свои контакты и
+                    мы свяжемся с вами!</p>
+            </div>
+            <form class="project-form" name="project-form" novalidate>
+                <div class="project-form__container">
+                    <div class="project-form__chapter">
+                        <div class="project-form__description">
+                            <h3 class="project-form__description-title">Персональная информация</h3>
+                            <p class="project-form__description-subtitle">Расскажите, как к вам обращаться и как можно связаться с вами</p>
+                        </div>
+                        <div class="project-form__inputs">
+                            <input type="text" name="project-form-name" id="project-form-name" placeholder="Имя*"
+                                class="project-form__input" required>
+                            <input type="text" name="project-form-company" id="project-form-company"
+                                placeholder="Компания" class="project-form__input">
+                            <input type="email" name="project-form-email*" id="project-form-email"
+                                placeholder="Электронная почта" placeholder="Имя" class="project-form__input" required>
+                            <input type="tel" name="project-form-tel" id="project-form-tel" placeholder="Телефон*"
+                                class="project-form__input" required>
+                        </div>
+                    </div>
+                    <div class="project-form__chapter">
+                        <div class="project-form__description">
+                            <h3 class="project-form__description-title">Техническое задание</h3>
+                            <p class="project-form__description-subtitle">Загрузите сюда свое ТЗ и / или оформите бриф</p>
+                        </div>
+                        <div class="project-form__inputs">
+                            <button type="button" class="project-form__brief-btn">Оформить бриф</button>
+                            <input type="url" name="project-form-brief-url" id="project-form-brief-url"
+                                placeholder="Ссылка на Техническое задание" class="project-form__input">
+                        </div>
+                    </div>
+                    <div class="project-form__chapter">
+                        <div class="project-form__description">
+                            <h3 class="project-form__description-title">О проекте</h3>
+                        </div>
+                        <div class="project-form__inputs">
+                            <textarea name="project-form-about-project" id="project-form-about-project" cols="30"
+                                rows="10" placeholder="Что бы Вы хотели рассказать еще о своем проекте"
+                                class="project-form__input project-form__input_type_textarea"></textarea>
+                            <div class="project-form__privacy-wrapper">
+                                <p class="project-form__privacy">Ваши персональные данные обрабатываются в соответствии с нашей</p>
+                                <a href="#" class="project-form__privacy-link">Политикой конфидециальности</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-form__chapter project-form__chapter_type_submission">
+                        <div class="project-form__submission">
+                            <p class="project-form__submission-text">* обязательные поля для заполнения</p>
+                            <button type="submit" class="project-form__submission-btn">Подать заявку</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </section>
     </main>
     <footer class="footer">

@@ -1,0 +1,13 @@
+.project-form__submission-btn {
+    padding: 14px 20px;
+    width: 206px;
+    height: 48px;
+    background: #1E74EC;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #EEEFF1;
+}
