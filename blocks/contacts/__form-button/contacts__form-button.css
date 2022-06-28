@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 1279px) {
     .contacts__form-button {
-        width: 343px;
+        width: 100%;
         border-radius: 8px;
     }
 }

@@ -12,3 +12,13 @@
     color: #1E74EC;
     cursor: pointer;
 }
+
+@media screen and (max-width: 767px) {
+    .project-form__brief-btn {
+        padding: 8px 16px;
+        width: 170px;
+        height: 42px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

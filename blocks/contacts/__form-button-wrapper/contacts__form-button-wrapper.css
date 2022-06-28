@@ -15,6 +15,6 @@
 
 @media screen and (max-width: 767px) {
     .contacts__form-button-wrapper {
-        width: 343px;
+        width: 100%;
     }
 }

@@ -1,5 +1,5 @@
 .contacts__form-footnote {
-    max-width: 215px;
+    width: 215px;
     margin: 0;
     padding-bottom: 4px;
     font-family: 'Gotham';
@@ -10,6 +10,6 @@
 
 @media screen and (max-width: 1279px) {
     .contacts__form-footnote {
-        max-width: 343px;
+        width: 100%;;
     }
 }

@@ -88,6 +88,8 @@
 @import url(../blocks/project-form/__inputs/project-form__inputs.css);
 @import url(../blocks/project-form/__input/project-form__input.css);
 @import url(../blocks/project-form/__input/_type/project-form__input_type_textarea.css);
+@import url(../blocks/project-form/__brief-btn-wrapper/project-form__brief-btn-wrapper.css);
+@import url(../blocks/project-form/__brief-btn-caption/project-form__brief-btn-caption.css);
 @import url(../blocks/project-form/__brief-btn/project-form__brief-btn.css);
 @import url(../blocks/project-form/__privacy-wrapper/project-form__privacy-wrapper.css);
 @import url(../blocks/project-form/__privacy/project-form__privacy.css);

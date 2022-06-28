@@ -1,0 +1,24 @@
+.project-form__brief-btn-caption {
+    display: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .project-form__brief-btn-caption {
+        display: inline;
+        margin: 0;
+        padding: 0;
+        max-width: 186px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.27;
+        color: #989AA9;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .project-form__brief-btn-caption {
+        font-size: 11px;
+    }
+}

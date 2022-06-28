@@ -8,3 +8,9 @@
     line-height: 1.82;
     color: #A960AB;
 }
+
+@media screen and (max-width: 767px) {
+    .project-form__privacy-link {
+        line-height: 1.27;
+    }
+}

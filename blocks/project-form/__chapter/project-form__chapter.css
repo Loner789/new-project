@@ -6,3 +6,11 @@
     border-bottom: 2px solid #DDDDE2;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 1023px) {
+    .project-form__chapter {
+        padding-top: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+}

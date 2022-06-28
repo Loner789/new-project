@@ -1,0 +1,11 @@
+.project-form__brief-btn-wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .project-form__brief-btn-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}
