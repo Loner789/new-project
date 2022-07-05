@@ -1,36 +1,36 @@
-.vacations__content {
+.ideas__content {
     display: flex;
     flex-direction: column;
-    max-width: 778px;
+    max-width: 600px;
     margin: 0 auto 0 240px;
-    padding: 348px 80px 0 0;
+    padding: 243px 80px 244px 0;
 }
 
 @media screen and (max-width: 1439px) {
-    .vacations__content {
+    .ideas__content {
         margin-left: 150px;
         padding-top: 260px;
     }
 }
 
 @media screen and (max-width: 1279px) {
-    .vacations__content {
+    .ideas__content {
         margin-left: 100px;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    .vacations__content {
+    .ideas__content {
         margin-left: auto;
         align-items: center;
-        padding-top: 180px;
-        padding-right: 16px;
-        padding-left: 16px;
+        padding: 180px 16px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .vacations__content {
+    .ideas__content {
         padding-top: 80px;
+        padding-bottom: 64px;
+        align-items: flex-start;
     }
 }

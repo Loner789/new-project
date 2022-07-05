@@ -1,0 +1,19 @@
+.portfolio-projects__card-title {
+    margin: 0;
+    padding: 16px 0 0 0;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.45;
+    color: #35417F;
+}
+
+@media screen and (max-width: 767px) {
+    .portfolio-projects__card-title {
+        padding-top: 15px;
+        font-size: 18px;
+        line-height: 1.22;
+        text-align: center;
+    }
+}

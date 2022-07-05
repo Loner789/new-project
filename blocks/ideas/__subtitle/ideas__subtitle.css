@@ -1,0 +1,24 @@
+.ideas__subtitle {
+    margin: 0;
+    padding: 8px 0 24px;
+    font-family: 'Gotham';
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 1.1;
+    color: #EEEFF1;
+}
+
+@media screen and (max-width: 1023px) {
+    .ideas__subtitle {
+        padding-bottom: 40px;
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .ideas__subtitle {
+        padding-bottom: 16px;
+        font-size: 30px;
+        text-align: center;
+    }
+}

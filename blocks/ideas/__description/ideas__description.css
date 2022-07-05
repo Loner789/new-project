@@ -1,0 +1,25 @@
+.ideas__description {
+    margin: 0;
+    padding: 0 0 64px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 325;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #DDDDE2;
+}
+
+@media screen and (max-width: 1023px) {
+    .ideas__description {
+        padding-bottom: 40px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .ideas__description {
+        font-size: 13px;
+        line-height: 1.31;
+        text-align: left;
+    }
+}

@@ -1,0 +1,67 @@
+/* VENDOR */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+/* PAGE */
+@import url(../blocks/root/root.css);
+/* HEADER */
+@import url(../blocks/heading/heading.css);
+@import url(../blocks/heading/__logo/heading__logo.css);
+@import url(../blocks/heading/__logo-link/heading__logo-link.css);
+@import url(../blocks/heading/__logo-title/heading__logo-title.css);
+@import url(../blocks/heading/__logo-subtitle/heading__logo-subtitle.css);
+@import url(../blocks/heading/__menu/heading__menu.css);
+@import url(../blocks/heading/__menu-item/heading__menu-item.css);
+@import url(../blocks/heading/__burger-menu/heading__burger-menu.css);
+@import url(../blocks/heading/__menu-links/heading__menu-links.css);
+@import url(../blocks/heading/__menu-link/heading__menu-link.css);
+@import url(../blocks/heading/__menu-lang-link/heading__menu-lang-link.css);
+@import url(../blocks/heading/__search-form/heading__search-form.css);
+@import url(../blocks/heading/__search-box/heading__search-box.css);
+@import url(../blocks/heading/__search-icon/heading__search-icon.css);
+@import url(../blocks/page-header/page-header.css);
+@import url(../blocks/page-header/_place/page-header_place_portfolio.css);
+@import url(../blocks/page-header/__content/page-header__content.css);
+@import url(../blocks/page-header/__title/page-header__title.css);
+@import url(../blocks/page-header/__subtitle/page-header__subtitle.css);
+@import url(../blocks/page-header/__description/page-header__description.css);
+@import url(../blocks/button-project-order/button-project-order.css);
+@import url(../blocks/button-project-order/_place/button-project-order_place_projects.css);
+@import url(../blocks/button-project-order/_place/button-project-order_place_projects-services.css);
+@import url(../blocks/block-indent/block-indent.css);
+/* PORTFOLIO-PROJECTS */
+@import url(../blocks/portfolio-projects/portfolio-projects.css);
+/* @import url(../blocks/portfolio-projects/__cards/portfolio-projects__cards.css); */
+@import url(../blocks/portfolio-projects/__card/portfolio-projects__card.css);
+@import url(../blocks/portfolio-projects/__card-image/portfolio-projects__card-image.css);
+@import url(../blocks/portfolio-projects/__card-title/portfolio-projects__card-title.css);
+@import url(../blocks/portfolio-projects/__card-subtitle/portfolio-projects__card-subtitle.css);
+/* CLIENTS */
+@import url(../blocks/clients/clients.css);
+@import url(../blocks/clients/__title/clients__title.css);
+@import url(../blocks/clients/__container/clients__container.css);
+@import url(../blocks/clients/__item/clients__item.css);
+/* IDEAS */
+@import url(../blocks/ideas/ideas.css);
+@import url(../blocks/ideas/__content/ideas__content.css);
+@import url(../blocks/ideas/__title/ideas__title.css);
+@import url(../blocks/ideas/__subtitle/ideas__subtitle.css);
+@import url(../blocks/ideas/__description/ideas__description.css);
+@import url(../blocks/button-connect/button-connect.css);
+/* FOOTER */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__wrapper/footer__wrapper.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__description/footer__description.css);
+@import url(../blocks/footer/__team/footer__team.css);
+@import url(../blocks/footer/__team-title/footer__team-title.css);
+@import url(../blocks/footer/__team-contacts/footer__team-contacts.css);
+@import url(../blocks/footer/__menu-container/footer__menu-container.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__menu-item/footer__menu-item.css);
+@import url(../blocks/footer/__menu-link/footer__menu-link.css);
+@import url(../blocks/footer/__link-text/footer__link-text.css);
+@import url(../blocks/footer/__link-image/footer__link-image.css);
+@import url(../blocks/footer/__info/footer__info.css);
+@import url(../blocks/footer/__signature/footer__signature.css);
+@import url(../blocks/footer/__policy-container/footer__policy-container.css);
+@import url(../blocks/footer/__policy/footer__policy.css);
