@@ -1,4 +1,4 @@
-.vacations__content {
+.vacancies__content {
     display: flex;
     flex-direction: column;
     max-width: 778px;
@@ -7,20 +7,20 @@
 }
 
 @media screen and (max-width: 1439px) {
-    .vacations__content {
+    .vacancies__content {
         margin-left: 150px;
         padding-top: 260px;
     }
 }
 
 @media screen and (max-width: 1279px) {
-    .vacations__content {
+    .vacancies__content {
         margin-left: 100px;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    .vacations__content {
+    .vacancies__content {
         margin-left: auto;
         align-items: center;
         padding-top: 180px;
@@ -30,7 +30,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .vacations__content {
+    .vacancies__content {
         padding-top: 80px;
     }
 }

@@ -1,0 +1,7 @@
+.job-openings__vacancy-items_type_row {
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}

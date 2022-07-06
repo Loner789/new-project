@@ -1,0 +1,13 @@
+.job-openings__vacancy-communication {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+@media screen and (max-width: 767px) {
+    .job-openings__vacancy-communication {
+        display: none;
+    }
+}

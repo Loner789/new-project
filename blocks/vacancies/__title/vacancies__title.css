@@ -1,4 +1,4 @@
-.vacations__title {
+.vacancies__title {
     margin: 0;
     padding: 0;
     font-family: 'Gotham';
@@ -9,13 +9,13 @@
 }
 
 @media screen and (max-width: 1023px) {
-    .vacations__title {
+    .vacancies__title {
         font-size: 22px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .vacations__title {
+    .vacancies__title {
         font-size: 18px;
         text-align: center;
     }

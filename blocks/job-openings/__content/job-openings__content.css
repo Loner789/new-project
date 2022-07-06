@@ -1,0 +1,11 @@
+.job-openings__content {
+    margin: 0;
+    padding: 0 0 76px 0;
+    max-width: 821px;
+}
+
+@media screen and (max-width: 767px) {
+    .job-openings__content {
+        padding-bottom: 55px;
+    }
+}

@@ -1,0 +1,12 @@
+.job-openings__vacancy-items-wrapper {
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+    max-width: 80%;
+}
+
+@media screen and (max-width: 767px) {
+    .job-openings__vacancy-items-wrapper {
+        padding-top: 20px;
+        max-width: 100%;
+    }
+}

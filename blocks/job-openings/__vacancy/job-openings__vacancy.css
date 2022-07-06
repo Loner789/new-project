@@ -1,0 +1,17 @@
+.job-openings__vacancy {
+    margin: 0 0 40px;
+    padding: 0 0 40px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #DDDDE2;
+}
+
+.job-openings__vacancy:last-of-type {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .job-openings__vacancy {
+        padding-bottom: 22px;
+        margin-bottom: 30px;
+    }
+}

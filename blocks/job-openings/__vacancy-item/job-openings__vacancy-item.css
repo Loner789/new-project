@@ -1,0 +1,27 @@
+.job-openings__vacancy-item {
+    margin: 0;
+    padding: 0 0 10px 0;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 325;
+    font-size: 18px;
+    line-height: 1.22;
+}
+
+.job-openings__vacancy-item:last-of-type {
+    padding-bottom: 0;
+}
+
+.job-openings__vacancy-item::marker {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    color: #1E74EC;
+}
+
+@media screen and (max-width: 767px) {
+    .job-openings__vacancy-item {
+        font-size: 12px;
+        line-height: 1.33;
+    }
+}

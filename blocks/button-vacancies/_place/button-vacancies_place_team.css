@@ -1,17 +1,17 @@
-.button-vacations_place_team {
+.button-vacancies_place_team {
     background-color: #1E74EC;
     color: #EEEFF1;
     box-sizing: border-box;
 }
 
 @media screen and (max-width: 1279px) {
-    .button-vacations_place_team {
+    .button-vacancies_place_team {
         display: block;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    .button-vacations_place_team {
+    .button-vacancies_place_team {
         width: 343px;
         font-size: 14px;
         line-height: 16px;

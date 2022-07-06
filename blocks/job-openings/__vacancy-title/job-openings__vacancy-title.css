@@ -1,0 +1,16 @@
+.job-openings__vacancy-title {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 325;
+    font-size: 26px;
+    line-height: 1.23;
+}
+
+@media screen and (max-width: 767px) {
+    .job-openings__vacancy-title {
+        font-size: 14px;
+        line-height: 1.14;
+    }
+}

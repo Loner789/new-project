@@ -19,7 +19,7 @@
 @import url(../blocks/heading/__search-box/heading__search-box.css);
 @import url(../blocks/heading/__search-icon/heading__search-icon.css);
 @import url(../blocks/page-header/page-header.css);
-@import url(../blocks/page-header/_place/page-header_place_portfolio.css);
+@import url(../blocks/page-header/_place/page-header_place_career.css);
 @import url(../blocks/page-header/__content/page-header__content.css);
 @import url(../blocks/page-header/__title/page-header__title.css);
 @import url(../blocks/page-header/__subtitle/page-header__subtitle.css);
@@ -28,24 +28,27 @@
 @import url(../blocks/button-project-order/_place/button-project-order_place_projects.css);
 @import url(../blocks/button-project-order/_place/button-project-order_place_projects-services.css);
 @import url(../blocks/block-indent/block-indent.css);
-/* PORTFOLIO-PROJECTS */
-@import url(../blocks/portfolio-projects/portfolio-projects.css);
-@import url(../blocks/portfolio-projects/__card/portfolio-projects__card.css);
-@import url(../blocks/portfolio-projects/__card-image/portfolio-projects__card-image.css);
-@import url(../blocks/portfolio-projects/__card-title/portfolio-projects__card-title.css);
-@import url(../blocks/portfolio-projects/__card-subtitle/portfolio-projects__card-subtitle.css);
-/* CLIENTS */
-@import url(../blocks/clients/clients.css);
-@import url(../blocks/clients/__title/clients__title.css);
-@import url(../blocks/clients/__container/clients__container.css);
-@import url(../blocks/clients/__item/clients__item.css);
-/* IDEAS */
-@import url(../blocks/ideas/ideas.css);
-@import url(../blocks/ideas/__content/ideas__content.css);
-@import url(../blocks/ideas/__title/ideas__title.css);
-@import url(../blocks/ideas/__subtitle/ideas__subtitle.css);
-@import url(../blocks/ideas/__description/ideas__description.css);
-@import url(../blocks/button-connect/button-connect.css);
+/* JOB-OPENINGS */
+@import url(../blocks/job-openings/job-openings.css);
+@import url(../blocks/job-openings/__content/job-openings__content.css);
+@import url(../blocks/job-openings/__title/job-openings__title.css);
+@import url(../blocks/job-openings/__subtitle/job-openings__subtitle.css);
+@import url(../blocks/job-openings/__vacancies/job-openings__vacancies.css);
+@import url(../blocks/job-openings/__vacancy/job-openings__vacancy.css);
+@import url(../blocks/job-openings/__vacancy-title-wrapper/job-openings__vacancy-title-wrapper.css);
+@import url(../blocks/job-openings/__vacancy-title/job-openings__vacancy-title.css);
+@import url(../blocks/job-openings/__vacancy-btn/job-openings__vacancy-btn.css);
+@import url(../blocks/job-openings/__vacancy-btn/_type/job-openings__vacancy-btn_type_opened.css);
+@import url(../blocks/job-openings/__vacancy-items-wrapper/__vacancy-items-wrapper.css);
+@import url(../blocks/job-openings/__vacancy-items-container/job-openings__vacancy-items-container.css);
+@import url(../blocks/job-openings/__vacancy-items-title/job-openings__vacancy-items-title.css);
+@import url(../blocks/job-openings/__vacancy-items/job-openings__vacancy-items.css);
+@import url(../blocks/job-openings/__vacancy-items/_type/job-openings__vacancy-items_type_row.css);
+@import url(../blocks/job-openings/__vacancy-item/job-openings__vacancy-item.css);
+@import url(../blocks/job-openings/__vacancy-item/_type/job-openings__vacancy-item_type_block.css);
+@import url(../blocks/job-openings/__vacancy-communication/job-openings__vacancy-communication.css);
+@import url(../blocks/job-openings/__vacancy-communication-item/job-openings__vacancy-communication-item.css);
+@import url(../blocks/job-openings/__vacancy-communication-item-img/job-openings__vacancy-communication-item-img.css);
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__wrapper/footer__wrapper.css);

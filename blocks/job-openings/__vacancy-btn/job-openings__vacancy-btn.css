@@ -1,0 +1,12 @@
+.job-openings__vacancy-btn {
+    margin: 0 26px 0 0;
+    padding: 0;
+    width: 12px;
+    height: 28px;
+    border: none;
+    box-sizing: border-box;
+    background: transparent;
+    background-image: url(../../../images/icon_corner-arrow.svg);
+    background-size: cover;
+    cursor: pointer;
+}

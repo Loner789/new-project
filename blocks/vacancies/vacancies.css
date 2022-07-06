@@ -1,4 +1,4 @@
-.vacations {
+.vacancies {
     max-width: 100%;
     min-height: 820px;
     background-image: url(../../images/team_opened_positions_bgi.png);
@@ -7,19 +7,19 @@
 }
 
 @media screen and (max-width: 1439px) {
-    .vacations {
+    .vacancies {
         min-height: 700px;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    .vacations {
+    .vacancies {
         min-height: 500px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .vacations {
+    .vacancies {
         min-height: 322px;
     }
 }

@@ -3,7 +3,7 @@
     transition: all 1s;
     width: 30px;
     height: 30px;
-    background: #07051a;
+    background: transparent;
     box-sizing: border-box;
     border-radius: 25px;
 }

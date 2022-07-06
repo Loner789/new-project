@@ -1,0 +1,10 @@
+.job-openings__vacancy-items {
+    margin: 0;
+    padding: 10px 19px 40px;
+}
+
+@media screen and (max-width: 767px) {
+    .job-openings__vacancy-items {
+        padding-bottom: 24px;
+    }
+}

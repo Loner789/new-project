@@ -1,0 +1,6 @@
+.job-openings__vacancy-title-wrapper {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}

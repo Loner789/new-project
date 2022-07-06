@@ -1,4 +1,4 @@
-.vacations__subtitle {
+.vacancies__subtitle {
     margin: 0;
     padding: 8px 0 64px;
     font-family: 'Gotham';
@@ -9,14 +9,14 @@
 }
 
 @media screen and (max-width: 1023px) {
-    .vacations__subtitle {
+    .vacancies__subtitle {
         padding-bottom: 40px;
         font-size: 48px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .vacations__subtitle {
+    .vacancies__subtitle {
         font-size: 30px;
         text-align: center;
     }

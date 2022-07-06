@@ -34,13 +34,13 @@
 @import url(../blocks/business-card/__title/business-card__title.css);
 @import url(../blocks/business-card/__subtitle/business-card__subtitle.css);
 @import url(../blocks/business-card/__icon/business-card__icon.css);
-/* VACATIONS */
-@import url(../blocks/vacations/vacations.css);
-@import url(../blocks/vacations/__content/vacations__content.css);
-@import url(../blocks/vacations/__title/vacations__title.css);
-@import url(../blocks/vacations/__subtitle/vacations__subtitle.css);
-@import url(../blocks/button-vacations/button-vacations.css);
-@import url(../blocks/button-vacations/_place/button-vacations_place_team.css);
+/* VACANCIES */
+@import url(../blocks/vacancies/vacancies.css);
+@import url(../blocks/vacancies/__content/vacancies__content.css);
+@import url(../blocks/vacancies/__title/vacancies__title.css);
+@import url(../blocks/vacancies/__subtitle/vacancies__subtitle.css);
+@import url(../blocks/button-vacancies/button-vacancies.css);
+@import url(../blocks/button-vacancies/_place/button-vacancies_place_team.css);
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__wrapper/footer__wrapper.css);

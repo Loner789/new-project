@@ -1,0 +1,18 @@
+.job-openings__vacancy-items-title {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #35417F;
+}
+
+@media screen and (max-width: 767px) {
+    .job-openings__vacancy-items-title {
+        font-size: 12px;
+        line-height: 1.17;
+    }
+}

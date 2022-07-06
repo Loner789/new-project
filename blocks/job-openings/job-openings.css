@@ -1,0 +1,12 @@
+.job-openings {
+    padding: 0 30px;
+    max-width: 1188px;
+    font-family: 'Inter', 'Gotham', 'Gotham XNarrow', sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+    .job-openings {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

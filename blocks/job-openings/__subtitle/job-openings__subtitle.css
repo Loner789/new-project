@@ -1,0 +1,17 @@
+.job-openings__subtitle {
+    margin: 0;
+    padding: 24px 0 0 0;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 325;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+@media screen and (max-width: 767px) {
+    .job-openings__subtitle {
+        padding-top: 16px;
+        font-size: 14px;
+        line-height: 1.43;
+    }
+}

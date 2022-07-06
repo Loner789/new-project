@@ -1,0 +1,10 @@
+.job-openings__vacancy-item_type_block {
+    padding: 4px 14px;
+    display: flex;
+    box-sizing: border-box;
+    background: #E6E8EF;
+    border-radius: 4px;
+    font-size: 11px;
+    line-height: 1.82;
+    color: #989AA9;
+}
