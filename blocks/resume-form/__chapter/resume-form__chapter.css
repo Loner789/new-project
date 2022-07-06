@@ -1,4 +1,4 @@
-.project-form__chapter {
+.resume-form__chapter {
     padding-bottom: 24px;
     width: 100%;
     display: flex;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-    .project-form__chapter {
+    .resume-form__chapter {
         padding-top: 30px;
         flex-direction: column;
         align-items: center;

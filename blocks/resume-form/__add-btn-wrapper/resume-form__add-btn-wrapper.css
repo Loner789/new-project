@@ -1,0 +1,11 @@
+.resume-form__add-btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .resume-form__add-btn-wrapper {
+        flex-direction: row-reverse;
+    }
+}

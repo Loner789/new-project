@@ -38,7 +38,7 @@
             <p class="page-header__subtitle">Карьера</p>
             <p class="page-header__description">Присоединяйтесь к команде победителей, способных решать масштабные
                 нешаблонные задачи, достойные лучших умов отрасли.</p>
-            <button type="button" class="button-project-order button-project-order_place_projects">Узнать
+            <button type="button" class="button-resume-order button-resume-order_place_resumes">Узнать
                 больше</button>
         </div>
     </header>
@@ -56,7 +56,8 @@
                 <article class="job-openings__vacancy">
                     <div class="job-openings__vacancy-title-wrapper">
                         <h3 class="job-openings__vacancy-title">Java-программист (Midle-Senior)</h3>
-                        <button type="button" class="job-openings__vacancy-btn job-openings__vacancy-btn_type_opened"></button>
+                        <button type="button"
+                            class="job-openings__vacancy-btn job-openings__vacancy-btn_type_opened"></button>
                     </div>
                     <div class="job-openings__vacancy-items-wrapper">
                         <div class="job-openings__vacancy-items-container">
@@ -67,15 +68,19 @@
                                 <li class="job-openings__vacancy-item job-openings__vacancy-item_type_block">Java</li>
                                 <li class="job-openings__vacancy-item job-openings__vacancy-item_type_block">SQL</li>
                                 <li class="job-openings__vacancy-item job-openings__vacancy-item_type_block">ООП</li>
-                                <li class="job-openings__vacancy-item job-openings__vacancy-item_type_block">PostgreSQL</li>
-                                <li class="job-openings__vacancy-item job-openings__vacancy-item_type_block">Java Spring Framework</li>
+                                <li class="job-openings__vacancy-item job-openings__vacancy-item_type_block">PostgreSQL
+                                </li>
+                                <li class="job-openings__vacancy-item job-openings__vacancy-item_type_block">Java Spring
+                                    Framework</li>
                             </ul>
                         </div>
                         <div class="job-openings__vacancy-item-container">
                             <h4 class="job-openings__vacancy-items-title">Местоположение и тип занятости</h4>
                             <ul class="job-openings__vacancy-items job-openings__vacancy-items_type_row">
-                                <li class="job-openings__vacancy-item job-openings__vacancy-item_type_block">Полный рабочий день</li>
-                                <li class="job-openings__vacancy-item job-openings__vacancy-item_type_block">Можно удаленно</li>
+                                <li class="job-openings__vacancy-item job-openings__vacancy-item_type_block">Полный
+                                    рабочий день</li>
+                                <li class="job-openings__vacancy-item job-openings__vacancy-item_type_block">Можно
+                                    удаленно</li>
                             </ul>
                         </div>
                         <div class="job-openings__vacancy-item-container">
@@ -165,7 +170,71 @@
                 </article>
             </div>
         </section>
-
+        <section class="possibility">
+            <div class="possibility__content">
+                <h2 class="possibility__title">Возможность</h2>
+                <p class="possibility__subtitle">Готовы стать частью команды UST?</p>
+                <p class="possibility__description">Если вы хотите стать частью нашей команды, оставьте свои контакты и
+                    мы свяжемся с вами!</p>
+            </div>
+            <form class="resume-form" name="resume-form" novalidate>
+                <div class="resume-form__container">
+                    <div class="resume-form__chapter">
+                        <div class="resume-form__description">
+                            <h3 class="resume-form__description-title">Персональная информация</h3>
+                            <p class="resume-form__description-subtitle">Расскажите, как к вам обращаться и как можно
+                                связаться с вами</p>
+                        </div>
+                        <div class="resume-form__inputs">
+                            <input type="text" name="resume-form-name" id="resume-form-name" placeholder="Имя*"
+                                class="resume-form__input" required>
+                            <input type="email" name="resume-form-email" id="resume-form-email"
+                                placeholder="Электронная почта*" placeholder="Имя" class="resume-form__input" required>
+                            <input type="tel" name="resume-form-tel" id="resume-form-tel" placeholder="Телефон*"
+                                class="resume-form__input" required>
+                        </div>
+                    </div>
+                    <div class="resume-form__chapter">
+                        <div class="resume-form__description">
+                            <h3 class="resume-form__description-title">Резюме/Портфолио</h3>
+                            <p class="resume-form__description-subtitle">Загрузите сюда свое резюме и/или прикрепите
+                                ссылку на портфолио</p>
+                        </div>
+                        <div class="resume-form__inputs">
+                            <div class="resume-form__add-btn-wrapper">
+                                <button type="button" class="resume-form__add-btn">Добавить файл</button>
+                                <p class="resume-form__add-btn-caption">Мы принимаем файлы PDF, DOCX, JPG, и PNG</p>
+                            </div>
+                            <input type="url" name="resume-form-portfolio-url" id="resume-form-portfolio-url"
+                                placeholder="Ссылка на портфолио" class="resume-form__input">
+                        </div>
+                    </div>
+                    <div class="resume-form__chapter">
+                        <div class="resume-form__description">
+                            <h3 class="resume-form__description-title">Вопросы</h3>
+                            <p class="resume-form__description-subtitle">Пожалуйста, ответьте на вопросы</p>
+                        </div>
+                        <div class="resume-form__inputs">
+                            <textarea name="resume-form-cover-letter" id="resume-form-cover-letter" cols="30" rows="10"
+                                placeholder="Сопроводительное письмо"
+                                class="resume-form__input resume-form__input_type_textarea"></textarea>
+                            <div class="resume-form__privacy-wrapper">
+                                <p class="resume-form__privacy">Ваши персональные данные обрабатываются в соответствии
+                                    с
+                                    нашей</p>
+                                <a href="#" class="resume-form__privacy-link">Политикой конфидециальности</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume-form__chapter resume-form__chapter_type_submission">
+                        <div class="resume-form__submission">
+                            <p class="resume-form__submission-text">* обязательные поля для заполнения</p>
+                            <button type="submit" class="resume-form__submission-btn">Подать заявку</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
     </main>
     <footer class="footer">
         <div class="footer__wrapper">
@@ -237,7 +306,7 @@
 
     </footer>
 
-    <script src="scripts/projects.js"></script>
+    <script src="scripts/career.js"></script>
 </body>
 
 </html>

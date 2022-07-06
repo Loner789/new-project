@@ -1,0 +1,11 @@
+.resume-form__add-btn-caption {
+    margin: 0;
+    padding: 0;
+    max-width: 186px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 1.82;
+    color: #989AA9;
+}

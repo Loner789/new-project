@@ -1,0 +1,9 @@
+.resume-form__input_type_textarea {
+    min-height: 96px;
+}
+
+@media screen and (max-width: 767px) {
+    .resume-form__input_type_textarea {
+        min-height: 80px;
+    }
+}

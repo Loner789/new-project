@@ -1,37 +1,37 @@
-.discussion {
+.possibility {
     margin: 0 auto 180px auto;
     width: 100%;
     padding: 0;
     font-family: 'Inter', 'Gotham', 'Gotham XNarrow', sans-serif;
-    background-image: url(../../images/your_project_bgi.png);
+    background-image: url(../../images/career_possibility_bgi.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 0 0;
 }
 
 @media screen and (max-width: 1439px) {
-    .discussion {
+    .possibility {
         margin-bottom: 100px;
         min-height: 600px;
     }
 }
 
 @media screen and (max-width: 1279px) {
-    .discussion {
+    .possibility {
         margin-bottom: 0;
         min-height: 600px;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    .discussion {
+    .possibility {
         background-size: 100% 330px;
         min-height: 300px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .discussion {
+    .possibility {
         min-height: 198px;
     }
 }

@@ -49,6 +49,32 @@
 @import url(../blocks/job-openings/__vacancy-communication/job-openings__vacancy-communication.css);
 @import url(../blocks/job-openings/__vacancy-communication-item/job-openings__vacancy-communication-item.css);
 @import url(../blocks/job-openings/__vacancy-communication-item-img/job-openings__vacancy-communication-item-img.css);
+/* POSSIBILITY */
+@import url(../blocks/possibility/possibility.css);
+@import url(../blocks/possibility/__content/possibility__content.css);
+@import url(../blocks/possibility/__title/possibility__title.css);
+@import url(../blocks/possibility/__subtitle/possibility__subtitle.css);
+@import url(../blocks/possibility/__description/possibility__description.css);
+/* RESUME-FORM */
+@import url(../blocks/resume-form/resume-form.css);
+@import url(../blocks/resume-form/__container/resume-form__container.css);
+@import url(../blocks/resume-form/__chapter/resume-form__chapter.css);
+@import url(../blocks/resume-form/__chapter/_type/resume-form__chapter_type_submission.css);
+@import url(../blocks/resume-form/__description/resume-form__description.css);
+@import url(../blocks/resume-form/__description-title/resume-form__description-title.css);
+@import url(../blocks/resume-form/__description-subtitle/resume-form__description-subtitle.css);
+@import url(../blocks/resume-form/__inputs/resume-form__inputs.css);
+@import url(../blocks/resume-form/__input/resume-form__input.css);
+@import url(../blocks/resume-form/__input/_type/resume-form__input_type_textarea.css);
+@import url(../blocks/resume-form/__add-btn-wrapper/resume-form__add-btn-wrapper.css);
+@import url(../blocks/resume-form/__add-btn-caption/resume-form__add-btn-caption.css);
+@import url(../blocks/resume-form/__add-btn/resume-form__add-btn.css);
+@import url(../blocks/resume-form/__privacy-wrapper/resume-form__privacy-wrapper.css);
+@import url(../blocks/resume-form/__privacy/resume-form__privacy.css);
+@import url(../blocks/resume-form/__privacy-link/resume-form__privacy-link.css);
+@import url(../blocks/resume-form/__submission/resume-form__submission.css);
+@import url(../blocks/resume-form/__submission-text/resume-form__submission-text.css);
+@import url(../blocks/resume-form/__submission-btn/resume-form__submission-btn.css);
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__wrapper/footer__wrapper.css);

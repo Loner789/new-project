@@ -1,4 +1,4 @@
-.project-form {
+.resume-form {
     margin: 0 auto;
     padding: 64px 124px;
     max-width: 1194px;
@@ -9,14 +9,14 @@
 }
 
 @media screen and (max-width: 1279px) {
-    .project-form {
+    .resume-form {
         padding-left: 80px;
         padding-right: 80px;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    .project-form {
+    .resume-form {
         background: #E6E8EF;
         padding: 0 16px 40px;
     }

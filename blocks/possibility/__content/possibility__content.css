@@ -1,0 +1,36 @@
+.possibility__content {
+    margin: 0 0 0 240px;
+    padding: 110px 30px 80px;
+    max-width: 1200px;
+}
+
+@media screen and (max-width: 1659px) {
+    .possibility__content {
+        max-width: 800px;
+        margin-left: 170px;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .possibility__content {
+        padding-top: 80px;
+        max-width: 600px;
+        margin-left: 170px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .possibility__content {
+        padding-top: 60px;
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .possibility__content {
+        padding: 40px 16px 94px;
+        max-width: 410px;
+        margin: 0;
+        align-items: center;
+    }
+}

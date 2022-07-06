@@ -1,0 +1,24 @@
+.resume-form__description-subtitle {
+    margin: 0;
+    padding: 0;
+    max-width: 369px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.38;
+    color: #75788D;
+}
+
+@media screen and (max-width: 1023px) {
+    .resume-form__description-subtitle {
+        padding-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .resume-form__description-subtitle {
+        font-size: 12px;
+        line-height: 1.33;
+    }
+}

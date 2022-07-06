@@ -1,0 +1,9 @@
+.resume-form__submission {
+    width: 453px;
+}
+
+@media screen and (max-width: 767px) {
+    .resume-form__submission {
+        width: 100%;
+    }
+}

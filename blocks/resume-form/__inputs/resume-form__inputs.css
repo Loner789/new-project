@@ -1,0 +1,11 @@
+.resume-form__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+@media screen and (max-width: 767px) {
+    .resume-form__inputs {
+        width: 100%;
+    }
+}

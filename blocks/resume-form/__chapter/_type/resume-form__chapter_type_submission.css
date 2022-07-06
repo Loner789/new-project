@@ -1,11 +1,11 @@
-.project-form__chapter_type_submission {
+.resume-form__chapter_type_submission {
     padding-bottom: 0;
     flex-direction: row-reverse;
     border: none;
 }
 
 @media screen and (max-width: 1023px) {
-    .project-form__chapter_type_submission {
+    .resume-form__chapter_type_submission {
         justify-content: center;
     }
 }
