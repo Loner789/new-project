@@ -2,7 +2,7 @@
     max-width: 1920px;
     font-family: 'Inter', 'Gotham', 'Gotham XNarrow', sans-serif;
     background-image: url(../../images/contacts_background.png);
-    background-position: 0 0;
+    background-position: center 0;
     background-size: contain;
     background-repeat: no-repeat;
 }

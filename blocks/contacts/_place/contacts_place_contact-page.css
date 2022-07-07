@@ -1,0 +1,17 @@
+.contacts_place_contact-page {
+    background-size: auto 660px;
+}
+
+@media screen and (max-width: 1279px) {
+    .contacts_place_contact-page {
+        background-size: 100% 450px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contacts_place_contact-page {
+        background-size: 100% 355px;
+        background-image: url(../../../images/contact-page_header_bgi.png);
+    }
+}

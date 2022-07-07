@@ -1,0 +1,9 @@
+.contacts__title_place_contact-page {
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 1279px) {
+    .contacts__title_place_contact-page {
+        padding-top: 80px;
+    }
+}
