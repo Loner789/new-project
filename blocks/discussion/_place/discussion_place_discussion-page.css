@@ -1,0 +1,11 @@
+@media screen and (max-width: 1279px) {
+    .discussion_place_discussion-page {
+        background-size: 100% 500px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .discussion_place_discussion-page {
+        background-image: url(../../../images/discussion_header_bgi.png);
+    }
+}

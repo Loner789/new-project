@@ -1,0 +1,67 @@
+/* VENDOR */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+/* PAGE */
+@import url(../blocks/root/root.css);
+/* HEADER */
+@import url(../blocks/heading/heading.css);
+@import url(../blocks/heading/__logo/heading__logo.css);
+@import url(../blocks/heading/__logo-link/heading__logo-link.css);
+@import url(../blocks/heading/__logo-title/heading__logo-title.css);
+@import url(../blocks/heading/__logo-subtitle/heading__logo-subtitle.css);
+@import url(../blocks/heading/__menu/heading__menu.css);
+@import url(../blocks/heading/__menu-item/heading__menu-item.css);
+@import url(../blocks/heading/__burger-menu/heading__burger-menu.css);
+@import url(../blocks/heading/__menu-links/heading__menu-links.css);
+@import url(../blocks/heading/__menu-link/heading__menu-link.css);
+@import url(../blocks/heading/__menu-lang-link/heading__menu-lang-link.css);
+@import url(../blocks/heading/__search-form/heading__search-form.css);
+@import url(../blocks/heading/__search-box/heading__search-box.css);
+@import url(../blocks/heading/__search-icon/heading__search-icon.css);
+@import url(../blocks/block-indent/block-indent.css);
+/* DISCUSSION */
+@import url(../blocks/discussion/discussion.css);
+@import url(../blocks/discussion/_place/discussion_place_discussion-page.css);
+@import url(../blocks/discussion/__content/discussion__content.css);
+@import url(../blocks/discussion/__content/_place/discussion__content_place_discussion-page.css);
+@import url(../blocks/discussion/__title/discussion__title.css);
+@import url(../blocks/discussion/__subtitle/discussion__subtitle.css);
+@import url(../blocks/discussion/__description/discussion__description.css);
+/* PROJECT-FORM */
+@import url(../blocks/project-form/project-form.css);
+@import url(../blocks/project-form/__container/project-form__container.css);
+@import url(../blocks/project-form/__chapter/project-form__chapter.css);
+@import url(../blocks/project-form/__chapter/_type/project-form__chapter_type_submission.css);
+@import url(../blocks/project-form/__description/project-form__description.css);
+@import url(../blocks/project-form/__description-title/project-form__description-title.css);
+@import url(../blocks/project-form/__description-subtitle/project-form__description-subtitle.css);
+@import url(../blocks/project-form/__inputs/project-form__inputs.css);
+@import url(../blocks/project-form/__input/project-form__input.css);
+@import url(../blocks/project-form/__input/_type/project-form__input_type_textarea.css);
+@import url(../blocks/project-form/__brief-btn-wrapper/project-form__brief-btn-wrapper.css);
+@import url(../blocks/project-form/__brief-btn-caption/project-form__brief-btn-caption.css);
+@import url(../blocks/project-form/__brief-btn/project-form__brief-btn.css);
+@import url(../blocks/project-form/__privacy-wrapper/project-form__privacy-wrapper.css);
+@import url(../blocks/project-form/__privacy/project-form__privacy.css);
+@import url(../blocks/project-form/__privacy-link/project-form__privacy-link.css);
+@import url(../blocks/project-form/__submission/project-form__submission.css);
+@import url(../blocks/project-form/__submission-text/project-form__submission-text.css);
+@import url(../blocks/project-form/__submission-btn/project-form__submission-btn.css);
+/* FOOTER */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__wrapper/footer__wrapper.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__description/footer__description.css);
+@import url(../blocks/footer/__team/footer__team.css);
+@import url(../blocks/footer/__team-title/footer__team-title.css);
+@import url(../blocks/footer/__team-contacts/footer__team-contacts.css);
+@import url(../blocks/footer/__menu-container/footer__menu-container.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__menu-item/footer__menu-item.css);
+@import url(../blocks/footer/__menu-link/footer__menu-link.css);
+@import url(../blocks/footer/__link-text/footer__link-text.css);
+@import url(../blocks/footer/__link-image/footer__link-image.css);
+@import url(../blocks/footer/__info/footer__info.css);
+@import url(../blocks/footer/__signature/footer__signature.css);
+@import url(../blocks/footer/__policy-container/footer__policy-container.css);
+@import url(../blocks/footer/__policy/footer__policy.css);

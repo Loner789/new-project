@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваш проект</title>
+    <link rel="stylesheet" href="pages/discussion-page.css">
+</head>
+
+<body class="root">
+    <header class="discussion discussion_place_discussion-page block-indent">
+        <div class="heading">
+            <a href="#" class="heading__logo-link">
+                <img src="images/logo_ust.svg" alt="логотип" class="heading__logo">
+                <h2 lang="en" class="heading__logo-title">Union Smart Technology</h2>
+                <p lang="en" class="heading__logo-subtitle">Simple solutions for complex problems</p>
+            </a>
+            <nav class="heading__menu">
+                <ul class="heading__menu-links">
+                    <li class="heading__menu-item"><a href="#" class="heading__menu-link">Главная</a></li>
+                    <li class="heading__menu-item"><a href="#" class="heading__menu-link">Команда</a></li>
+                    <li class="heading__menu-item"><a href="#" class="heading__menu-link">Услуги</a></li>
+                    <li class="heading__menu-item"><a href="#" class="heading__menu-link">Карьера</a></li>
+                    <li class="heading__menu-item"><a href="#" class="heading__menu-link">Портфолио</a></li>
+                    <li class="heading__menu-item"><a href="#" class="heading__menu-link">Контакты</a></li>
+                </ul>
+                <button type="button" class="heading__burger-menu" aria-label="кнопка_меню"></button>
+                <a href="#" class="heading__menu-lang-link" aria-label="ссылка_на_перевод_страницы"></a>
+                <form action="" class="heading__search-form">
+                    <input type="search" class="heading__search-box">
+                    <i class="heading__search-icon"></i>
+                </form>
+            </nav>
+        </div>
+        <div class="discussion__content discussion__content_place_discussion-page">
+            <h2 class="discussion__title">Обсуждаем</h2>
+            <p class="discussion__subtitle">Ваш проект</p>
+            <p class="discussion__description">Если вы хотите стать частью нашей команды, оставьте свои контакты и
+                мы свяжемся с вами!</p>
+        </div>
+        <form class="project-form" name="project-form" novalidate>
+            <div class="project-form__container">
+                <div class="project-form__chapter">
+                    <div class="project-form__description">
+                        <h3 class="project-form__description-title">Персональная информация</h3>
+                        <p class="project-form__description-subtitle">Расскажите, как к вам обращаться и как можно
+                            связаться с вами</p>
+                    </div>
+                    <div class="project-form__inputs">
+                        <input type="text" name="project-form-name" id="project-form-name" placeholder="Имя*"
+                            class="project-form__input" required>
+                        <input type="text" name="project-form-company" id="project-form-company" placeholder="Компания"
+                            class="project-form__input">
+                        <input type="email" name="project-form-email" id="project-form-email"
+                            placeholder="Электронная почта*" placeholder="Имя" class="project-form__input" required>
+                        <input type="tel" name="project-form-tel" id="project-form-tel" placeholder="Телефон*"
+                            class="project-form__input" required>
+                    </div>
+                </div>
+                <div class="project-form__chapter">
+                    <div class="project-form__description">
+                        <h3 class="project-form__description-title">Техническое задание</h3>
+                        <p class="project-form__description-subtitle">Загрузите сюда свое ТЗ и / или оформите бриф
+                        </p>
+                    </div>
+                    <div class="project-form__inputs">
+                        <div class="project-form__brief-btn-wrapper">
+                            <p class="project-form__brief-btn-caption">Оформление брифа может занять 15-25 минут</p>
+                            <button type="button" class="project-form__brief-btn">Оформить бриф</button>
+                        </div>
+                        <input type="url" name="project-form-brief-url" id="project-form-brief-url"
+                            placeholder="Ссылка на Техническое задание" class="project-form__input">
+                    </div>
+                </div>
+                <div class="project-form__chapter">
+                    <div class="project-form__description">
+                        <h3 class="project-form__description-title">О проекте</h3>
+                    </div>
+                    <div class="project-form__inputs">
+                        <textarea name="project-form-about-project" id="project-form-about-project" cols="30" rows="10"
+                            placeholder="Что бы Вы хотели рассказать еще о своем проекте"
+                            class="project-form__input project-form__input_type_textarea"></textarea>
+                        <div class="project-form__privacy-wrapper">
+                            <p class="project-form__privacy">Ваши персональные данные обрабатываются в соответствии
+                                с
+                                нашей</p>
+                            <a href="#" class="project-form__privacy-link">Политикой конфидециальности</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-form__chapter project-form__chapter_type_submission">
+                    <div class="project-form__submission">
+                        <p class="project-form__submission-text">* обязательные поля для заполнения</p>
+                        <button type="submit" class="project-form__submission-btn">Подать заявку</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </header>
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__container">
+                <div class="footer__description">
+                    <div class="footer__team">
+                        <h2 class="footer__team-title">Российская команда</h2>
+                        <p class="footer__team-contacts">contact@unionsmarttech.ru<br>+7 911 932-90-29</p>
+                        <p class="footer__team-contacts">24 Entuziastov street,<br>Saint Petersburg, 191 119</p>
+                    </div>
+                    <div class="footer__team">
+                        <h2 class="footer__team-title">Словацкая команда</h2>
+                        <p class="footer__team-contacts">contact@unionsmarttech.ru<br>+421 494 539-852</p>
+                        <p class="footer__team-contacts">24 Entuziastov street,<br>Saint Petersburg, 191 119</p>
+                    </div>
+                </div>
+                <div class="footer__menu-container">
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Главная</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Команда</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Услуги</a></li>
+                    </ul>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Карьера</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Портфолио</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Контакты</a></li>
+                    </ul>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">
+                                <p class="footer__link-text" lang="en">Google</p>
+                                <img src="images/social_icon_google.svg" alt="гугл" class="footer__link-image">
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">
+                                <p class="footer__link-text" lang="en">Facebook</p>
+                                <img src="images/social_icon_facebook.svg" alt="фейсбук" class="footer__link-image">
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">
+                                <p class="footer__link-text" lang="en">Instagram</p>
+                                <img src="images/social_icon_instagram.svg" alt="инстаграм" class="footer__link-image">
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">
+                                <p class="footer__link-text" lang="en">Dribbble</p>
+                                <img src="images/social_icon_dribbble.svg" alt="дриббл" class="footer__link-image">
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">
+                                <p class="footer__link-text" lang="en">linkedin</p>
+                                <img src="images/social_icon_linkedin.svg" alt="линкедин" class="footer__link-image">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__info">
+                <p class="footer__signature">&copy; 2022. Дмитрий Малиновский</p>
+                <div class="footer__policy-container">
+                    <a href="#" class="footer__policy">Политика конфиденциальности</a>
+                    <a href="#" class="footer__policy" lang="en">Cookies Policy</a>
+                </div>
+            </div>
+
+    </footer>
+
+    <script src="scripts/discussion.js"></script>
+</body>
+
+</html>
