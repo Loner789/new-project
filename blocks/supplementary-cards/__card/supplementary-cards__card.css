@@ -1,0 +1,6 @@
+.supplementary-cards__card {
+    width: 453px;
+    min-height: 214px;
+    display: flex;
+    background: #E6E8EF;
+}

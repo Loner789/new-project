@@ -1,0 +1,27 @@
+.supplementary-cards__card-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-items: center;
+}
+
+@media  screen and (max-width: 1659px) {
+    .supplementary-cards__card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media  screen and (max-width: 1023px) {
+    .supplementary-cards__card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media  screen and (max-width: 767px) {
+    .supplementary-cards__card-container {
+        gap: 16px;
+    }
+}

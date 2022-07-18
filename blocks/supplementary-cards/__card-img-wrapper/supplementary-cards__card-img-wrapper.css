@@ -1,0 +1,7 @@
+.supplementary-cards__card-img-wrapper {
+    width: 160px;
+    background: linear-gradient(130.67deg, #1E74EC 6.5%, #002984 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

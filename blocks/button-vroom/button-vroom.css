@@ -1,0 +1,36 @@
+.button-vroom {
+    margin-top: 46px;
+    margin-bottom: 71px;
+    margin: 64px 0 180px;
+    width: 170px;
+    height: 48px;
+    padding: 14px 20px;
+    background: #1E74EC;
+    border: none;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #EEEFF1;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1023px) {
+    .button-vroom {
+        width: 150px;
+        font-size: 12px;
+        line-height: 1.2;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .button-vroom {
+        width: 343px;
+        padding: 16px 34px;
+        border-radius: 8px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
