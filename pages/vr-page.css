@@ -34,6 +34,27 @@
 @import url(../blocks/supplementary-cards/__card-img-wrapper/supplementary-cards__card-img-wrapper.css);
 @import url(../blocks/supplementary-cards/__card-img/supplementary-cards__card-img.css);
 @import url(../blocks/supplementary-cards/__card-text/supplementary-cards__card-text.css);
+/* EQUIPMENT */
+@import url(../blocks/equipment/equipment.css);
+@import url(../blocks/equipment/__title/equipment__title.css);
+@import url(../blocks/equipment/__card-container/equipment__card-container.css);
+@import url(../blocks/equipment/__card/equipment__card.css);
+@import url(../blocks/equipment/__card-description/equipment__card-description.css);
+@import url(../blocks/equipment/__card-title/equipment__card-title.css);
+@import url(../blocks/equipment/__card-subtitle/equipment__card-subtitle.css);
+@import url(../blocks/equipment/__card-image/equipment__card-image.css);
+/* TRACKING-SYSTEMS */
+@import url(../blocks/tracking-systems/tracking-systems.css);
+@import url(../blocks/tracking-systems/__description-container/tracking-systems__description-container.css);
+@import url(../blocks/tracking-systems/__description/tracking-systems__description.css);
+@import url(../blocks/tracking-systems/__title/tracking-systems__title.css);
+@import url(../blocks/tracking-systems/__subtitle/tracking-systems__subtitle.css);
+@import url(../blocks/tracking-systems/__image/tracking-systems__image.css);
+@import url(../blocks/tracking-systems/__cards/tracking-systems__cards.css);
+@import url(../blocks/tracking-systems/__card/tracking-systems__card.css);
+@import url(../blocks/tracking-systems/__card-image/tracking-systems__card-image.css);
+@import url(../blocks/tracking-systems/__card-text/tracking-systems__card-text.css);
+
 
 /* FOOTER */
 @import url(../blocks/footer/footer.css);

@@ -1,0 +1,13 @@
+.equipment__card-title {
+    margin: 0;
+    padding: 0 0 10px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    background: linear-gradient(130.67deg, #1E74EC 6.5%, #002984 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

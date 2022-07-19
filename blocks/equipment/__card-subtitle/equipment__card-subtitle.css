@@ -1,0 +1,10 @@
+.equipment__card-subtitle {
+    margin: 0;
+    padding: 0 0 24px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #75788D;
+}
