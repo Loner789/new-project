@@ -64,6 +64,15 @@
 @import url(../blocks/game-dev/__card-image/game-dev__card-image.css);
 @import url(../blocks/game-dev/__card-title/game-dev__card-title.css);
 @import url(../blocks/game-dev/__card-subtitle/game-dev__card-subtitle.css);
+/* ALSO */
+@import url(../blocks/also/also.css);
+@import url(../blocks/also/__title/also__title.css);
+@import url(../blocks/also/__card-container/also__card-container.css);
+@import url(../blocks/also/__card/also__card.css);
+@import url(../blocks/also/__card-description/also__card-description.css);
+@import url(../blocks/also/__card-title/also__card-title.css);
+@import url(../blocks/also/__card-subtitle/also__card-subtitle.css);
+@import url(../blocks/also/__card-item/also__card-item.css);
 
 /* FOOTER */
 @import url(../blocks/footer/footer.css);

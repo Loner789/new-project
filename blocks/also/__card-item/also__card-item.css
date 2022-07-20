@@ -1,0 +1,21 @@
+.also__card-item {
+    margin: 0;
+    padding: 0 0 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #75788D;
+}
+
+.also__card-item:last-of-type {
+    padding-bottom: 0;
+}
+
+.also__card-item::marker {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #35417F;
+}
