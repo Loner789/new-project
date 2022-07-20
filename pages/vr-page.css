@@ -54,7 +54,16 @@
 @import url(../blocks/tracking-systems/__card/tracking-systems__card.css);
 @import url(../blocks/tracking-systems/__card-image/tracking-systems__card-image.css);
 @import url(../blocks/tracking-systems/__card-text/tracking-systems__card-text.css);
-
+/* GAME-DEV */
+@import url(../blocks/game-dev/game-dev.css);
+@import url(../blocks/game-dev/__description/game-dev__description.css);
+@import url(../blocks/game-dev/__title/game-dev__title.css);
+@import url(../blocks/game-dev/__subtitle/game-dev__subtitle.css);
+@import url(../blocks/game-dev/__card-container/game-dev__card-container.css);
+@import url(../blocks/game-dev/__card/game-dev__card.css);
+@import url(../blocks/game-dev/__card-image/game-dev__card-image.css);
+@import url(../blocks/game-dev/__card-title/game-dev__card-title.css);
+@import url(../blocks/game-dev/__card-subtitle/game-dev__card-subtitle.css);
 
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
