@@ -73,7 +73,17 @@
 @import url(../blocks/also/__card-title/also__card-title.css);
 @import url(../blocks/also/__card-subtitle/also__card-subtitle.css);
 @import url(../blocks/also/__card-item/also__card-item.css);
-
+/* OFFICE */
+@import url(../blocks/office/office.css);
+@import url(../blocks/office/__description/office__description.css);
+@import url(../blocks/office/__title/office__title.css);
+@import url(../blocks/office/__subtitle/office__subtitle.css);
+@import url(../blocks/office/__image/office__image.css);
+@import url(../blocks/office/__video/office__video.css);
+@import url(../blocks/office/__iframe/office__iframe.css);
+@import url(../blocks/office/__image/_place/office__image_place_left.css);
+@import url(../blocks/office/__image/_place/office__image_place_center.css);
+@import url(../blocks/office/__image/_place/office__image_place_right.css);
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__wrapper/footer__wrapper.css);

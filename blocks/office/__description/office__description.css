@@ -1,0 +1,4 @@
+.office__description {
+    width: 700px;
+    grid-area: description;
+}

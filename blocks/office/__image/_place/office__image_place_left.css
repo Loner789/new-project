@@ -1,0 +1,4 @@
+.office__image_place_left {
+    grid-area: first-img;
+    align-self: end;
+}

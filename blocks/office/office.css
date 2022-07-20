@@ -1,0 +1,10 @@
+.office {
+    padding: 0 30px;
+    max-width: 1440px;
+    font-family: 'Inter', 'Gotham', 'Gotham XNarrow', sans-serif;
+    display: grid;
+    gap: 40px;
+    grid-template-areas: 
+    "iframe description description"
+    "first-img second-img third-img";
+}
