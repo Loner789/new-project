@@ -1,0 +1,21 @@
+.offer__item {
+    margin: 0;
+    padding: 0 0 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #BABBC6;
+}
+
+.offer__item:last-of-type {
+    padding-bottom: 16px;
+}
+
+.offer__item::marker {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #CDCFDF;
+}

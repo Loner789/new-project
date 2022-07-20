@@ -72,6 +72,7 @@
 @import url(../blocks/also/__card-description/also__card-description.css);
 @import url(../blocks/also/__card-title/also__card-title.css);
 @import url(../blocks/also/__card-subtitle/also__card-subtitle.css);
+@import url(../blocks/also/__card-items/also__card-items.css);
 @import url(../blocks/also/__card-item/also__card-item.css);
 /* OFFICE */
 @import url(../blocks/office/office.css);
@@ -84,6 +85,17 @@
 @import url(../blocks/office/__image/_place/office__image_place_left.css);
 @import url(../blocks/office/__image/_place/office__image_place_center.css);
 @import url(../blocks/office/__image/_place/office__image_place_right.css);
+/* OFFER */
+@import url(../blocks/offer/offer.css);
+@import url(../blocks/offer/__content/offer__content.css);
+@import url(../blocks/offer/__content/offer__content.css);
+@import url(../blocks/offer/__title/offer__title.css);
+@import url(../blocks/offer/__subtitle/offer__subtitle.css);
+@import url(../blocks/offer/__items/offer__items.css);
+@import url(../blocks/offer/__item/offer__item.css);
+@import url(../blocks/offer/__contacts/offer__contacts.css);
+@import url(../blocks/offer/__tel/offer__tel.css);
+@import url(../blocks/button-vroom/button-vroom.css);
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__wrapper/footer__wrapper.css);
