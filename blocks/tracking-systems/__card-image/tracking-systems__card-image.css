@@ -3,3 +3,9 @@
     padding: 0 0 10px;
     max-width: 280px;
 }
+
+@media screen and (max-width: 767px) {
+    .tracking-systems__card-image {
+        max-width: 193px;
+    }
+}

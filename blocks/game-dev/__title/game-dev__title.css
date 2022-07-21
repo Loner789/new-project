@@ -8,3 +8,11 @@
     line-height: 1.1;
     color: #03115F;
 }
+
+@media screen and (max-width: 767px) {
+    .game-dev__title {
+        padding-bottom: 8px;
+        font-size: 30px;
+        line-height: 1.07;
+    }
+}

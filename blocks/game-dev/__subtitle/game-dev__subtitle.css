@@ -7,3 +7,11 @@
     font-size: 20px;
     line-height: 1.4;
 }
+
+@media screen and (max-width: 767px) {
+    .game-dev__subtitle {
+        padding-bottom: 24px;
+        font-size: 14px;
+        line-height: 1.43;
+    }
+}

@@ -4,7 +4,37 @@
     font-family: 'Inter', 'Gotham', 'Gotham XNarrow', sans-serif;
     display: grid;
     gap: 40px;
-    grid-template-areas: 
-    "iframe description description"
-    "first-img second-img third-img";
+    grid-template-areas:
+        "iframe description description"
+        "first-img second-img third-img";
+}
+
+@media screen and (max-width: 1439px) {
+    .office {
+        grid-template-areas:
+            "description description"
+            "iframe iframe"
+            "first-img first-img"
+            "second-img third-img";
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .office {
+        gap: 32px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .office {
+        gap: 32px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .office {
+        padding-left: 16px;
+        padding-right: 16px;
+        gap: 16px;
+    }
 }

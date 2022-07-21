@@ -11,3 +11,11 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
+@media screen and (max-width: 767px) {
+    .equipment__card-title {
+        padding-bottom: 4px;
+        font-size: 18px;
+        line-height: 1.22;
+    }
+}

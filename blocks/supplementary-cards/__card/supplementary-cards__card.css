@@ -4,3 +4,13 @@
     display: flex;
     background: #E6E8EF;
 }
+
+@media screen and (max-width: 767px) {
+    .supplementary-cards__card {
+        width: 100%;
+        min-height: 0;
+        flex-direction: column;
+        align-items: center;
+        background: transparent;
+    }
+}

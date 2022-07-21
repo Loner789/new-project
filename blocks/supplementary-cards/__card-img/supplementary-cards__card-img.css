@@ -1,4 +1,9 @@
 .supplementary-cards__card-img {
     width: 80px;
-    height: 80px;
+}
+
+@media screen and (max-width: 767px) {
+    .supplementary-cards__card-img {
+        display: none;
+    }
 }

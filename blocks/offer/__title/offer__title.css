@@ -8,3 +8,10 @@
     line-height: 1.23;
     color: #BABBC6;
 }
+
+@media screen and (max-width: 767px) {
+    .offer__title {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+}

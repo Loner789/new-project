@@ -4,3 +4,15 @@
     max-width: 454px;
     background: #EEEFF1;
 }
+
+@media screen and (max-width: 1279px) {
+    .game-dev__card {
+        min-width: 70%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .game-dev__card {
+        min-width: 100%;
+    }
+}

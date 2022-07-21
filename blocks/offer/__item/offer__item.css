@@ -19,3 +19,11 @@
     border-radius: 50%;
     background: #CDCFDF;
 }
+
+@media screen and (max-width: 767px) {
+    .offer__item {
+        font-size: 14px;
+        line-height: 1.43;
+        color: #989AA9;
+    }
+}

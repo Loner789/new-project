@@ -7,3 +7,10 @@
     font-size: 20px;
     line-height: 1.4;
 }
+
+@media screen and (max-width: 767px) {
+    .also__card-subtitle {
+        font-size: 12px;
+        line-height: 1.33;
+    }
+}

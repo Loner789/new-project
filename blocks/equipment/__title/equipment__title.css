@@ -8,3 +8,19 @@
     line-height: 1.1;
     color: #03115F;
 }
+
+@media screen and (max-width: 1023px) {
+    .equipment__title {
+        text-align: center;
+        font-size: 52px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .equipment__title {
+        padding-bottom: 40px;
+        text-align: left;
+        font-size: 30px;
+        line-height: 1.07;
+    }
+}

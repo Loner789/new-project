@@ -1,3 +1,10 @@
 .also__card-container {
     display: grid;
 }
+
+@media screen and (max-width: 1439px) {
+    .also__card-container {
+        row-gap: 64px;
+        justify-items: center;
+    }
+}

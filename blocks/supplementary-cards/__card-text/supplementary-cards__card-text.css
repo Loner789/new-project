@@ -14,3 +14,15 @@
     align-items: center;
     color: #35417F;
 }
+
+@media screen and (max-width: 767px) {
+    .supplementary-cards__card-text {
+        padding: 15px 18px 0;
+        max-width: 280px;
+        min-height: 40px;
+        text-align: center;
+        color: #75788D;
+        font-size: 14px;
+        line-height: 1.43;
+    }
+}

@@ -2,3 +2,15 @@
     width: 700px;
     grid-area: description;
 }
+
+@media screen and (max-width: 1439px) {
+    .office__description {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .office__description {
+        width: 100%;
+    }
+}

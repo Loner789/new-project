@@ -3,3 +3,16 @@
     margin: 80px 0 0 auto;
     max-width: 670px;
 }
+
+@media screen and (max-width: 1279px) {
+    .tracking-systems__description {
+        margin: 0;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .tracking-systems__description {
+        padding-left: 0;
+    }
+}

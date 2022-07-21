@@ -1,4 +1,14 @@
 .offer {
     width: 100%;
     background-image: url(../../images/our_offer_bgi.png);
+    background-position: center;
+}
+
+@media screen and (max-width: 767px) {
+    .offer {
+        background-color: #E6E8EF;
+        background-position: top;
+        background-size: 100% 240px;
+        background-repeat: no-repeat;
+    }
 }

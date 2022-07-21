@@ -8,3 +8,10 @@
     line-height: 1.4;
     color: #989AA9;
 }
+
+@media screen and (max-width: 767px) {
+    .offer__contacts {
+        font-size: 14px;
+        line-height: 1.43;
+    }
+}

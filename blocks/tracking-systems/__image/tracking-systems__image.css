@@ -3,3 +3,16 @@
     width: 100%;
     align-self: end;
 }
+
+@media screen and (max-width: 1439px) {
+    .tracking-systems__image {
+        margin-top: 0;
+        align-self: start;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .tracking-systems__image {
+        align-self: center;
+    }
+}

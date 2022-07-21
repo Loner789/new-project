@@ -12,3 +12,12 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
+@media screen and (max-width: 767px) {
+    .game-dev__card-title {
+        padding: 24px 16px 8px;
+        text-transform: none;
+        font-size: 18px;
+        line-height: 1.22;
+    }
+}

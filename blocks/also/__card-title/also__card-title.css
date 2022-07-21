@@ -8,3 +8,11 @@
     line-height: 1.17;
     color: #35417F;
 }
+
+@media screen and (max-width: 767px) {
+    .also__card-title {
+        padding-bottom: 10px;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+}

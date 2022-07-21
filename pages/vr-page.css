@@ -33,6 +33,7 @@
 @import url(../blocks/supplementary-cards/__card/supplementary-cards__card.css);
 @import url(../blocks/supplementary-cards/__card-img-wrapper/supplementary-cards__card-img-wrapper.css);
 @import url(../blocks/supplementary-cards/__card-img/supplementary-cards__card-img.css);
+@import url(../blocks/supplementary-cards/__card-img-mobile/supplementary-cards__card-img-mobile.css);
 @import url(../blocks/supplementary-cards/__card-text/supplementary-cards__card-text.css);
 /* EQUIPMENT */
 @import url(../blocks/equipment/equipment.css);
@@ -74,6 +75,7 @@
 @import url(../blocks/also/__card-subtitle/also__card-subtitle.css);
 @import url(../blocks/also/__card-items/also__card-items.css);
 @import url(../blocks/also/__card-item/also__card-item.css);
+@import url(../blocks/also/__card-image/also__card-image.css);
 /* OFFICE */
 @import url(../blocks/office/office.css);
 @import url(../blocks/office/__description/office__description.css);

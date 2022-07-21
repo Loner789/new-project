@@ -19,3 +19,11 @@
     border-radius: 50%;
     background: #35417F;
 }
+
+@media screen and (max-width: 767px) {
+    .also__card-item {
+        padding-bottom: 8px;
+        font-size: 11px;
+        line-height: 1.27;
+    }
+}

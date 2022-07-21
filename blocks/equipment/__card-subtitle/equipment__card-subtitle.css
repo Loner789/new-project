@@ -8,3 +8,11 @@
     line-height: 1.4;
     color: #75788D;
 }
+
+@media screen and (max-width: 767px) {
+    .equipment__card-subtitle {
+        padding-bottom: 10px;
+        font-size: 12px;
+        line-height: 1.33;
+    }
+}

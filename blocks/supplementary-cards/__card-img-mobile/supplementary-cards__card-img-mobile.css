@@ -1,0 +1,10 @@
+.supplementary-cards__card-img-mobile {
+    display: none;
+    width: 80px;
+}
+
+@media screen and (max-width: 767px) {
+    .supplementary-cards__card-img-mobile {
+        display: inline;
+    }
+}

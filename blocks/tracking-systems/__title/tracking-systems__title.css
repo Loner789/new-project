@@ -8,3 +8,16 @@
     line-height: 1.1;
     color: #03115F;
 }
+
+@media screen and (max-width: 1279px) {
+    .tracking-systems__title {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .tracking-systems__title {
+        font-size: 30px;
+        line-height: 1.07;
+    }
+}

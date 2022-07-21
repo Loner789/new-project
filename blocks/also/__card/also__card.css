@@ -1,5 +1,25 @@
 .also__card {
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-column-gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+}
+
+@media screen and (max-width: 1439px) {
+    .also__card {
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 60%;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 40px;
+        justify-items: center;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .also__card {
+        max-width: 100%;
+        width: 100%;
+        justify-items: left;
+        gap: 10px;
+    }
 }

@@ -8,3 +8,11 @@
     line-height: 1.1;
     color: #E6E8EF;
 }
+
+@media screen and (max-width: 767px) {
+    .offer__subtitle {
+        padding-bottom: 48px;
+        font-size: 30px;
+        line-height: 1.07;
+    }
+}
