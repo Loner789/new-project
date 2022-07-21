@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 767px) {
     .button-project-order {
-        width: 343px;
+        width: 100%;
         padding: 16px 34px;
         border-radius: 8px;
         font-size: 14px;
