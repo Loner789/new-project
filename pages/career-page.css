@@ -24,9 +24,8 @@
 @import url(../blocks/page-header/__title/page-header__title.css);
 @import url(../blocks/page-header/__subtitle/page-header__subtitle.css);
 @import url(../blocks/page-header/__description/page-header__description.css);
-@import url(../blocks/button-project-order/button-project-order.css);
-@import url(../blocks/button-project-order/_place/button-project-order_place_projects.css);
-@import url(../blocks/button-project-order/_place/button-project-order_place_projects-services.css);
+@import url(../blocks/button-read-more/button-read-more.css);
+@import url(../blocks/button-read-more/_place/button-read-more_place_career.css);
 @import url(../blocks/block-indent/block-indent.css);
 /* JOB-OPENINGS */
 @import url(../blocks/job-openings/job-openings.css);

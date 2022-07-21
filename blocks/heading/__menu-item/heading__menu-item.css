@@ -4,8 +4,8 @@
 }
 
 .heading__menu-item::after {
-    padding-right: 16px;
-    padding-left: 16px;
+    padding-right: 10px;
+    padding-left: 10px;
     content: "|";
     color: #989AA9;
 }

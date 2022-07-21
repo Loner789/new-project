@@ -1,0 +1,15 @@
+.button-read-more_place_career {
+    margin-top: 64px;
+    border: none;
+}
+
+@media screen and (max-width: 767px) {
+    .button-read-more_place_career {
+        margin-top: 80px;
+        width: 100%;
+        background: #1E74EC;
+        border-radius: 8px;
+        color: #EEEFF1;
+        text-align: center;
+    }
+}
