@@ -72,7 +72,8 @@
 @import url(../blocks/resume-form/__privacy/resume-form__privacy.css);
 @import url(../blocks/resume-form/__privacy-link/resume-form__privacy-link.css);
 @import url(../blocks/resume-form/__submission/resume-form__submission.css);
-@import url(../blocks/resume-form/__submission-text/resume-form__submission-text.css);
+@import url(../blocks/form-footnote/form-footnote.css);
+@import url(../blocks/form-footnote/_span/form-footnote_span_accent.css);
 @import url(../blocks/resume-form/__submission-btn/resume-form__submission-btn.css);
 /* FOOTER */
 @import url(../blocks/footer/footer.css);

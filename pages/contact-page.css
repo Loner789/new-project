@@ -36,8 +36,8 @@
 @import url(../blocks/contacts/__form-input/_type/contacts__form-input_type_textarea.css);
 @import url(../blocks/contacts/__form-button-wrapper/contacts__form-button-wrapper.css);
 @import url(../blocks/contacts/__form-button/contacts__form-button.css);
-@import url(../blocks/contacts/__form-footnote/contacts__form-footnote.css);
-@import url(../blocks/contacts/__form-footnote/_span/contacts__form-footnote_span_accent.css);
+@import url(../blocks/form-footnote/form-footnote.css);
+@import url(../blocks/form-footnote/_span/form-footnote_span_accent.css);
 @import url(../blocks/form-description/form-description.css);
 @import url(../blocks/form-description/_place/form-description_place_contact-page.css);
 @import url(../blocks/form-description/__title/form-description__title.css);
