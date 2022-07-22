@@ -3,7 +3,11 @@
     height: 48px;
     padding: 14px 20px;
     background: #1E74EC;
-    border: none;
+    text-decoration: none;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
     font-family: 'Gotham';
     font-style: normal;
     font-weight: 500;

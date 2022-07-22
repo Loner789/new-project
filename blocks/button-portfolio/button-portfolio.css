@@ -1,8 +1,13 @@
-.portfolio-button {
+.button-portfolio {
     width: 206px;
     height: 48px;
     padding: 14px 20px;
     border: 2px solid #1E74EC;
+    text-decoration: none;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
     background-color: transparent;
     font-family: 'Gotham';
     font-weight: 350;
@@ -13,7 +18,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-    .portfolio-button {
+    .button-portfolio {
         order: 2;
         margin-top: 8px;
         border: none;

@@ -73,7 +73,7 @@
 @import url(../blocks/portfolio/__card-title/portfolio__card-title.css);
 @import url(../blocks/portfolio/__card-subtitle/portfolio__card-subtitle.css);
 @import url(../blocks/portfolio/__buttons/portfolio__buttons.css);
-@import url(../blocks/portfolio-button/portfolio-button.css);
+@import url(../blocks/button-portfolio/button-portfolio.css);
 /* BENEFITS */
 @import url(../blocks/benefits/benefits.css);
 /* CLIENTS */
