@@ -1,34 +1,44 @@
 @font-face {
     font-family: 'Gotham';
+    font-style: normal;
+    font-display: swap;
     src: local('Gotham'),
-        url(../vendor/gotham/Gotham-Light.woff) format('woff'), url(../vendor/gotham/Gotham-Light.woff2) format('woff2');
+        url(../vendor/gotham/Gotham-400.woff) format('woff'), url(../vendor/gotham/Gotham-400.woff2) format('woff2');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Gotham';
+    font-style: normal;
+    font-display: swap;
     src: local('Gotham'),
-        url(../vendor/gotham/Gotham-Bold.woff) format('woff'), url(../vendor/gotham/Gotham-Bold.woff2) format('woff2');
+        url(../vendor/gotham/Gotham-700.woff) format('woff'), url(../vendor/gotham/Gotham-700.woff2) format('woff2');
     font-weight: 700;
 }
 
 @font-face {
     font-family: 'Inter';
+    font-style: normal;
+    font-display: swap;
     src: local('Inter'),
-        url(../vendor/inter/Inter-Regular.woff) format('woff'), url(../vendor/inter/Inter-Regular.woff2) format('woff2');
+        url(../vendor/inter/Inter-400.woff) format('woff'), url(../vendor/inter/Inter-400.woff2) format('woff2');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Inter';
+    font-style: normal;
+    font-display: swap;
     src: local('Inter'),
-        url(../vendor/inter/Inter-SemiBold.woff) format('woff'), url(../vendor/inter/Inter-SemiBold.woff2) format('woff2');
+        url(../vendor/inter/Inter-700.woff) format('woff'), url(../vendor/inter/Inter-700.woff2) format('woff2');
     font-weight: 700;
 }
 
 @font-face {
     font-family: 'Gotham XNarrow';
+    font-style: normal;
+    font-display: swap;
     src: local('Gotham XNarrow'),
-        url(../vendor/gothamxnarrow/GothamXNarrow-Medium.woff) format('woff'), url(../vendor/gothamxnarrow/GothamXNarrow-Medium.woff2) format('woff2');
+        url(../vendor/gothamxnarrow/GothamXNarrow-500.woff) format('woff'), url(../vendor/gothamxnarrow/GothamXNarrow-500.woff2) format('woff2');
     font-weight: 500;
 }

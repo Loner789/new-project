@@ -9,6 +9,10 @@
     color: #A960AB;
 }
 
+.suggestions__link:hover {
+    opacity: 0.5;
+}
+
 @media screen and (max-width: 767px) {
     .suggestions__link {
         align-self: flex-end;
