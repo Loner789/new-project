@@ -3,6 +3,10 @@
     color: #DDDDE2;
 }
 
+.heading__menu-link:hover {
+    opacity: 0.4;
+}
+
 @media screen and (max-width: 767px) {
     .heading__menu-link {
         display: none;

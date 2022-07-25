@@ -4,7 +4,7 @@
     padding: 14px 20px;
     border: 2px solid #1E74EC;
     text-decoration: none;
-    display: flex;
+    display: inline-flex;
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
@@ -15,6 +15,15 @@
     line-height: 19px;
     color: #1E74EC;
     cursor: pointer;
+    transition: all 0.5s ease-in-out, transform 0s;
+}
+
+.button-portfolio:hover {
+    opacity: 0.6;
+}
+
+.button-portfolio:active {
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 1023px) {

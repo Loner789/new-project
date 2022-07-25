@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.button-vacancies_place_team:hover {
+    border: 1px solid white;
+    background-color: #1E74EC;
+    color: #EEEFF1;
+}
+
 @media screen and (max-width: 1279px) {
     .button-vacancies_place_team {
         display: block;

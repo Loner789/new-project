@@ -9,6 +9,10 @@
     color: #E0E1E3;
 }
 
+.footer__policy:hover {
+    opacity: 0.6;
+}
+
 .footer__policy::after {
     content: "|";
     padding-right: 16px;

@@ -2,3 +2,7 @@
     margin: 0;
     text-decoration: none;
 }
+
+.form-description__link:hover {
+    opacity: 0.4;
+}

@@ -3,6 +3,12 @@
     border: none;
 }
 
+.button-read-more_place_career:hover {
+    color: #EEEFF1;
+    background: #1E74EC;
+    border: 1px solid white
+}
+
 @media screen and (max-width: 767px) {
     .button-read-more_place_career {
         margin-top: 80px;

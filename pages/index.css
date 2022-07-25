@@ -105,7 +105,7 @@
 @import url(../blocks/form-description/__contacts/form-description__contacts.css);
 @import url(../blocks/form-description/__links/form-description__links.css);
 @import url(../blocks/form-description/__link/form-description__link.css);
-@import url(../blocks/form-description/__link-image/description__link-image.css);
+@import url(../blocks/form-description/__link-image/form-description__link-image.css);
 /* FAQ */
 @import url(../blocks/faq/faq.css);
 @import url(../blocks/faq/__title/faq__title.css);

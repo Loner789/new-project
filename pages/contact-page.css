@@ -48,7 +48,7 @@
 @import url(../blocks/form-description/__contacts/form-description__contacts.css);
 @import url(../blocks/form-description/__links/form-description__links.css);
 @import url(../blocks/form-description/__link/form-description__link.css);
-@import url(../blocks/form-description/__link-image/description__link-image.css);
+@import url(../blocks/form-description/__link-image/form-description__link-image.css);
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__wrapper/footer__wrapper.css);

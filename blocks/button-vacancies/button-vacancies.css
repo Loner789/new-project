@@ -4,7 +4,7 @@
     padding: 14px 20px;
     border: 2px solid #1E74EC;
     text-decoration: none;
-    display: flex;
+    display: inline-flex;
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
@@ -17,6 +17,15 @@
     color: #1E74EC;
     background-color: transparent;
     cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.button-vacancies:hover {
+    opacity: 0.6;
+}
+
+.button-vacancies:active {
+    transform: scale(1.1);
 }
 
 @media  screen and (max-width: 1279px) {

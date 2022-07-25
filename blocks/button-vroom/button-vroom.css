@@ -17,6 +17,15 @@
     letter-spacing: 0.02em;
     color: #EEEFF1;
     cursor: pointer;
+    transition: border 0.5s ease-in-out;
+}
+
+.button-vroom:hover {
+    border: 1px solid black;
+}
+
+.button-vroom:active {
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 1279px) {
