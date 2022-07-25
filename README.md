@@ -1,14 +1,14 @@
-# Проект "Путешествие по России"
-***[Cсылка на проект](https://loner789.github.io/russian-travel/index.html)***
+# Проект "Union Smart Technology"
+***[Cсылка на проект](https://loner789.github.io/new-project/index.html)***
 ___
 ### Описание
-Макет одностраничного сайта с информацией для путешественников об интересных местах для отдыха на территории России.
-
-Сайт содержит полезную информацию и ссылки на информационные ресурсы, которые могут понадобиться при организации вашего отдыха.
+Макет многостраничного сайта cтудии разработки программного обеспечения.
 ___
 ### Техническая информация
-* Сайт адаптирован под наиболее популярные расширения и форматы экранов шириной от 320px до 1280px;
-* При разработке сайта использованы технологии [grid](https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout) и [flex](https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout/Flexbox), поддерживаемые большинством современных браузеров в последней версии.
+* Сайт адаптирован под расширения экранов от 375px до 1920px;
+* При разработке сайта использованы технологии [grid](https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout) и [flex](https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout/Flexbox), поддерживаемые большинством современных браузеров в последней версии;
+* При разработке сайта использован язык программирования [JavaScript](https://ru.wikipedia.org/wiki/JavaScript);
+* Файловая структура [БЭМ Nested](https://ru.bem.info/methodology/filestructure/#nested).
 
 *[Узнать подробности о поддержке проекта браузерами](https://caniuse.com/?search=grid)*
 ___
